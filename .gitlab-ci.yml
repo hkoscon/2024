@@ -7,6 +7,7 @@ default:
         - package-lock.json
     paths:
       - .npm/
+      - node_modules
 
 install:
   stage: build
