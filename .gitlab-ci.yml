@@ -5,8 +5,8 @@ default:
     key:
       files:
         - package-lock.json
-      paths:
-        - .npm/
+    paths:
+      - .npm/
 
 install:
   stage: build
