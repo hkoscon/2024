@@ -1,0 +1,54 @@
+image: docker.io/library/node:20
+
+default:
+  cache:
+    key:
+      files:
+        - package-lock.json
+      paths:
+        - .npm/
+
+install:
+  stage: build
+  script:
+    - npm ci --cache .npm --prefer-offline
+
+audit:
+  stage: test
+  script:
+    - npm audit
+  allow_failure: true
+  needs:
+    - job: install
+
+lint:
+  stage: test
+  script:
+    - npm run lint
+  needs:
+    - job: install
+
+test:
+  stage: test
+  script:
+    - npm run test
+  needs:
+    - job: install
+  artifacts:
+    reports:
+      junit: [junit.xml]
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage/cobertura-coverage.xml
+
+pages:
+  stage: deploy
+  script:
+    - npm run build
+    - rm -rf public
+    - cp -r out public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'main'
