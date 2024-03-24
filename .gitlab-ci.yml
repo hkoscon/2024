@@ -18,22 +18,16 @@ audit:
   script:
     - npm audit
   allow_failure: true
-  needs:
-    - job: install
 
 lint:
   stage: test
   script:
     - npm run lint
-  needs:
-    - job: install
 
 test:
   stage: test
   script:
     - npm run test
-  needs:
-    - job: install
   artifacts:
     reports:
       junit: [junit.xml]
