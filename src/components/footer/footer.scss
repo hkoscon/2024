@@ -1,0 +1,10 @@
+.app-footer {
+  &__cc-logo {
+    height: 22px;
+    margin-left: 3px;
+    vertical-align: text-bottom;
+  }
+  &__hashtag {
+    color: var(--brand-color-blue);
+  }
+}
