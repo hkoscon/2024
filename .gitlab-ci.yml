@@ -47,3 +47,13 @@ pages:
       - public
   rules:
     - if: $CI_COMMIT_BRANCH == 'main'
+
+deploy:github-page:
+  stage: deploy
+  needs:
+    - job: pages
+      artifacts: true
+  script:
+    - bash ./.gitlab/scripts/deploy-github-pages.sh
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'main'
