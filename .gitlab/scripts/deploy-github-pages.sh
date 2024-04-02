@@ -33,7 +33,7 @@ git config user.email "$GIT_USER_EMAIL"
 git remote add origin "$PAGES_REPOSITORY_URL"
 git fetch && git reset origin/gh-pages
 
-touch .
+touch .nojekyll
 
 git add -A .
 git commit --allow-empty -m "$GIT_COMMIT_MESSAGE"
