@@ -1,3 +1,7 @@
+'use client';
+
+import { useCallback, useState } from 'react';
+import clsx from 'clsx';
 import Link from 'next/link';
 import Image from 'next/image';
 import brandLogo from './brand.png';
@@ -19,6 +23,11 @@ const archivedYears = [
 ];
 
 export default function Navbar() {
+  const [isNavOpen, setNavOpen] = useState(false);
+  const toggleNavOpen = useCallback(() => {
+    setNavOpen(!isNavOpen);
+  }, [isNavOpen]);
+
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
@@ -28,10 +37,11 @@ export default function Navbar() {
 
         <button
           type="button"
-          className="navbar-burger"
+          className={clsx('navbar-burger', { 'is-active': isNavOpen })}
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
+          onClick={toggleNavOpen}
         >
           <span aria-hidden="true" />
           <span aria-hidden="true" />
@@ -40,11 +50,13 @@ export default function Navbar() {
         </button>
       </div>
 
-      <div className="navbar-menu">
+      <div className={clsx('navbar-menu', { 'is-active': isNavOpen })}>
         <div className="navbar-start">
-          <Link href="/" className="navbar-item">
-            Home
-          </Link>
+          {process.env.NEXT_PUBLIC_ENABLE_CFP === '1' && (
+            <Link href="/cfp" className="navbar-item">
+              Call for Proposal
+            </Link>
+          )}
 
           <div className="navbar-item has-dropdown is-hoverable">
             <button type="button" className="navbar-link">
