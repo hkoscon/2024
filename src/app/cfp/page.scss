@@ -1,0 +1,15 @@
+.cfpPage {
+  &__hero {
+    background-image: url("./cfp.jpeg");
+    background-size: cover;
+    background-position: center center;
+    &__title, &__subtitle {
+      --bulma-title-color: #fff;
+      --bulma-subtitle-color: #fff;
+    }
+  }
+  &__button {
+    background-color: var(--brand-color-yellow);
+    color: var(--brand-color-blue);
+  }
+}
