@@ -28,7 +28,7 @@ export default function CfpPage() {
           <ul>
             <li>
               CFP Submission Deadline:
-              <time dateTime="2024-04-10T23:59:59+08:00">17th April 2024 (Wed) 23:59 HKT</time>
+              <time dateTime="2024-04-17T23:59:59+08:00">17th April 2024 (Wed) 23:59 HKT</time>
             </li>
             <li>
               Vetting Result Notification:
