@@ -1,6 +1,17 @@
+@use "bulma/sass/utilities/mixins";
+
 .cfpPage {
   &__hero {
-    background-image: url("./cfp.jpeg");
+    background-image: url("./cfp-xl.webp");
+    @include mixins.desktop {
+      background-image: url("./cfp-lg.webp");
+    }
+    @include mixins.tablet {
+      background-image: url("./cfp-md.webp");
+    }
+    @include mixins.mobile {
+      background-image: url("./cfp-sm.webp");
+    }
     background-size: cover;
     background-position: center center;
     &__title, &__subtitle {
