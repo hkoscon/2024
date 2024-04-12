@@ -2,18 +2,23 @@
 
 .cfpPage {
   &__hero {
-    background-image: url("./cfp-xl.webp");
-    @include mixins.desktop {
-      background-image: url("./cfp-lg.webp");
-    }
+    background-size: cover;
+    background-position: center center;
+    background-image: url("./cfp-sm.webp");
+
     @include mixins.tablet {
       background-image: url("./cfp-md.webp");
     }
-    @include mixins.mobile {
-      background-image: url("./cfp-sm.webp");
+    @include mixins.desktop {
+      background-image: url("./cfp-lg.webp");
     }
-    background-size: cover;
-    background-position: center center;
+    @include mixins.widescreen {
+      background-image: url("./cfp-xl.webp");
+    }
+    @include mixins.fullhd {
+      background-position: center top;
+    }
+
     &__title, &__subtitle {
       --bulma-title-color: #fff;
       --bulma-subtitle-color: #fff;
