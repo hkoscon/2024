@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SponsorTier match snapshot 1`] = `
+<div>
+  <section
+    class="section"
+  >
+    <h3
+      class="title sponsorTier__title"
+    >
+      Testing Tier
+    </h3>
+    <div
+      class="columns"
+    >
+      <div
+        class="column"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-content"
+          >
+            <div
+              class="content"
+            >
+              <div
+                class="columns sponsorInfo"
+              >
+                <div
+                  class="column is-3"
+                >
+                  <div
+                    class="card-image"
+                  >
+                    <figure
+                      class="image sponsorInfo__logo"
+                    >
+                      <img
+                        alt="Testing"
+                        src="sponsor.png"
+                      />
+                    </figure>
+                  </div>
+                </div>
+                <div
+                  class="column is-9"
+                >
+                  <h4
+                    class="title"
+                  >
+                    Testing
+                  </h4>
+                  <div
+                    class="content"
+                  >
+                    Testing sponsor
+                  </div>
+                  <div
+                    class="card-footer"
+                  >
+                    <a
+                      class="card-footer-item"
+                      href="http://example.com/test1"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Test 1
+                    </a>
+                    <a
+                      class="card-footer-item"
+                      href="http://example.com/test2"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Test 2
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
