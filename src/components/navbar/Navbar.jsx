@@ -70,6 +70,12 @@ export default function Navbar() {
             </div>
           </div>
 
+          {process.env.NEXT_PUBLIC_ENABLE_SPONSOR === '1' && (
+            <Link href="/sponsor" className="navbar-item">
+              Sponsor
+            </Link>
+          )}
+
           <div className="navbar-item has-dropdown is-hoverable">
             <button type="button" className="navbar-link">
               Archive
