@@ -1,8 +1,9 @@
+import image from '../assets/images/kv_v04a.png';
 export default function Home() {
   return (
     <section className="hero">
-      <div className="hero-body">
-        <h1 className="title">HKOSCon 2024</h1>
+      <div className="hero-body" style={{aspectRatio: 1}}>
+	<img src={image.src}/>
       </div>
     </section>
   );
