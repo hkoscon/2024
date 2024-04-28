@@ -60,10 +60,6 @@ pages:
   rules:
     - if: $CI_COMMIT_BRANCH == 'main'
     - if: $CI_COMMIT_BRANCH == 'develop'
-    - if: $CI_PIPELINE_SOURCE == "merge_request_event"  # Conditionally change the prefix for Merge Requests
-      variables:
-        PAGES_PREFIX: 'mr${CI_MERGE_REQUEST_IID}' # Prefix with the mr<iid>, like `mr123`
-
 
 deploy:github-page:
   stage: deploy
