@@ -1,11 +1,15 @@
-import image from '../assets/images/kv_v04a.png';
+import './page.scss';
 
 export default function Home() {
   return (
-    <section className="hero">
-      <div className="hero-body" style={{ aspectRatio: 1 }}>
-        <img src={image.src} alt="HKOSCon 2024" />
-      </div>
-    </section>
+    <main className="container">
+      <section className="hero homePage__cover">
+        <div className="hero-body homePage__cover__body">
+          <h1 className="title">HKOSCon 2024</h1>
+          <h2 className="subtitle has-text-weight-medium">Date: 5 - 6 Jul 2024</h2>
+          <h2 className="subtitle has-text-weight-medium">Venue: The University of Hong Kong (Tentative)</h2>
+        </div>
+      </section>
+    </main>
   );
 }
