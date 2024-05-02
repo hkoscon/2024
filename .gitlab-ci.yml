@@ -40,6 +40,7 @@ test:
 build:
   stage: build
   script:
+    - curl -o src/app/sponsor/sponsor.json $EVENT_INFO_URL
     - npm run build
     - cp out/404/index.html out/404.html
     - rm -rf out/404
@@ -60,6 +61,8 @@ pages:
   rules:
     - if: $CI_COMMIT_BRANCH == 'main'
     - if: $CI_COMMIT_BRANCH == 'develop'
+  environment:
+    name: staging
 
 deploy:github-page:
   stage: deploy
@@ -71,3 +74,5 @@ deploy:github-page:
     - bash ./.gitlab/scripts/deploy-github-pages.sh
   rules:
     - if: $CI_COMMIT_BRANCH == 'main'
+  environment:
+    name: production
