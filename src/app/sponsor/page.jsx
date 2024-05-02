@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import { conference } from './sponsor.json';
 import SponsorTier from './SponsorTier';
 
