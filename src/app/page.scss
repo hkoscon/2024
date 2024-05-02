@@ -1,14 +1,18 @@
 .homePage {
   &__cover {
-    min-height: 50vh;
-    background-image: url(../assets/images/kv_v04a.png);
-    background-position: center 30%;
-    &__body {
-      background-color: rgba(255, 255, 255, 0.7);
-      color: var(--brand-color-blue);
-    }
-    &__title {
-      font-weight: 700;
+    background-image: url(../assets/images/cover.png);
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100dvw;
+    width: 100vw;
+    height: calc(100dvw/1280*700); /* W:H = 1280:700 */ 
+    height: calc(100vw/1280*700);
+    background-position: center;
+    background-size: cover;
+    @media (orientation: portrait) {
+          height: calc(100dvw/850*700);/* W:H = 850:700 */ 
+          height: calc(100vw/850*700); 
     }
   }
 }
