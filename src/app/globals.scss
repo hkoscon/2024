@@ -16,3 +16,19 @@ body {
     --bulma-weight-bold: 700;
     --bulma-weight-extrabold: 900;
 }
+
+.has-text-brand-color-blue {
+    color: var(--brand-color-blue);
+}
+
+.has-text-brand-color-yellow {
+    color: var(--brand-color-yellow);
+}
+
+.has-background-brand-color-blue {
+    background-color: var(--brand-color-blue);
+}
+
+.has-background-brand-color-yellow {
+    background-color: var(--brand-color-yellow);
+}

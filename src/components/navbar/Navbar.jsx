@@ -90,7 +90,22 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-
+        <div className="navbar-end">
+          <div className="navbar-item">
+            <div className="buttons">
+              {process.env.NEXT_PUBLIC_TICKET_URL && (
+                <a
+                  className="button has-background-brand-color-yellow has-text-brand-color-blue"
+                  href={process.env.NEXT_PUBLIC_TICKET_URL}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Get Ticket
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
   );

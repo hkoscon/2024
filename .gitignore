@@ -37,3 +37,6 @@ next-env.d.ts
 
 # Jest Junit
 junit.xml
+
+# Placeholder data
+src/app/sponsor/sponsor.json
