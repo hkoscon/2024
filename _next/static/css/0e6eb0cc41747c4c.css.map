@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://_N_E/src/components/navbar/navbar.scss"],"names":[],"mappings":"AACE,kBACE,YAAA,CACA,UAAA","file":"static/css/0e6eb0cc41747c4c.css","sourcesContent":[".app-navbar {\n  &__logo {\n    height: 160px;\n    width: auto;\n  }\n}\n"],"sourceRoot":""}
