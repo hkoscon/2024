@@ -5,6 +5,10 @@ import SponsorTier from './SponsorTier';
 const { sponsors: sponsorData } = conference;
 
 export default function SponsorPage() {
+  let thankText = '';
+  if (Object.values(sponsorData).length > 0) {
+    thankText = 'We would like to thank the following sponsors for their support.';
+  }
   return (
     <>
       <header className="hero is-medium">
@@ -18,7 +22,7 @@ export default function SponsorPage() {
             To cover expenses of conference,
             we are calling for sponsorships of HKOSCon and look for potential sponsors.
           </p>
-          <p>We would like to thank the following sponsors for their support.</p>
+          <p>{thankText}</p>
         </section>
         {Object.values(sponsorData).map(({ name, sponsors }) => (
           <SponsorTier key={name} name={name} sponsors={sponsors} />
