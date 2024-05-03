@@ -44,6 +44,7 @@ build:
     - npm run build
     - cp out/404/index.html out/404.html
     - rm -rf out/404
+    - find out -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
   artifacts:
     paths:
       - out
@@ -58,7 +59,6 @@ pages:
     - apt-get update && apt-get install brotli -y
   script:
     - cp -r out public
-    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
     - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli -f -k {} \;
   artifacts:
     paths:
