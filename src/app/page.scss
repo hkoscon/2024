@@ -4,15 +4,12 @@
     margin: 0;
     border: 0;
     padding: 0;
-    width: 100dvw;
     width: 100vw;
-    height: calc(100dvw/1280*700); /* W:H = 1280:700 */ 
-    height: calc(100vw/1280*700);
+    height: calc(100vw/1280*700);/* W:H = 1280:700 */
     background-position: center;
     background-size: cover;
     @media (orientation: portrait) {
-          height: calc(100dvw/850*700);/* W:H = 850:700 */ 
-          height: calc(100vw/850*700); 
+      height: calc(100vw/850*700);
     }
   }
 }
