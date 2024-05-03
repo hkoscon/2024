@@ -1,6 +1,7 @@
+@use "bulma/sass/utilities/mixins";
+
 .homePage {
   &__cover {
-    background-image: url(../assets/images/cover.png);
     margin: 0;
     border: 0;
     padding: 0;
@@ -10,6 +11,20 @@
     background-size: cover;
     @media (orientation: portrait) {
       height: calc(100vw/850*700);
+    }
+
+    background-image: url(../assets/images/cover-sm.webp);
+    @include mixins.tablet {
+      background-image: url(../assets/images/cover-md.webp);
+    }
+    @include mixins.desktop {
+      background-image: url(../assets/images/cover-lg.webp);
+    }
+    @include mixins.widescreen {
+      background-image: url(../assets/images/cover-xl.webp);
+    }
+    @include mixins.fullhd {
+      background-image: url(../assets/images/cover.webp);
     }
   }
 }
