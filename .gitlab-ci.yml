@@ -53,8 +53,13 @@ pages:
   needs:
     - job: build
       artifacts: true
+  image: docker.io/library/ubuntu:22.04
+  before_script:
+    - apt-get update && apt-get install brotli -y
   script:
     - cp -r out public
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli -f -k {} \;
   artifacts:
     paths:
       - public
