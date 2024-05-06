@@ -6,6 +6,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import brandLogo from './brand.png';
 
+import {
+  enableCfp,
+  enableCfpResult,
+  enableSponsor,
+  enableTimetable,
+} from '../../app/features';
+
 import './navbar.scss';
 
 const archivedYears = [
@@ -52,9 +59,15 @@ export default function Navbar() {
 
       <div className={clsx('navbar-menu', { 'is-active': isNavOpen })}>
         <div className="navbar-start">
-          {process.env.NEXT_PUBLIC_ENABLE_CFP === '1' && (
+          {enableCfp && !enableCfpResult && (
             <Link href="/cfp" className="navbar-item">
               Call for Proposal
+            </Link>
+          )}
+
+          {enableCfpResult && !enableTimetable && (
+            <Link href="/cfp/result" className="navbar-item">
+              Call for Proposal Result
             </Link>
           )}
 
@@ -70,7 +83,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          {process.env.NEXT_PUBLIC_ENABLE_SPONSOR === '1' && (
+          {enableSponsor && (
             <Link href="/sponsor" className="navbar-item">
               Sponsor
             </Link>

@@ -1,8 +1,6 @@
 // eslint-disable-next-line import/no-unresolved
-import { conference } from './sponsor.json';
+import { sponsors as sponsorData } from '../data';
 import SponsorTier from './SponsorTier';
-
-const { sponsors: sponsorData } = conference;
 
 export default function SponsorPage() {
   return (

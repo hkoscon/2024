@@ -39,4 +39,6 @@ next-env.d.ts
 junit.xml
 
 # Placeholder data
-src/app/sponsor/sponsor.json
+src/app/events.json
+src/app/meta.json
+src/app/timetable.json

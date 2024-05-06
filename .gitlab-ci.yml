@@ -40,7 +40,9 @@ test:
 build:
   stage: build
   script:
-    - curl -o src/app/sponsor/sponsor.json $EVENT_INFO_URL
+    - curl -o src/app/meta.json $EVENT_INFO_URL
+    - curl -o src/app/events.json $TOPICS_URL
+    - curl -o src/app/timetable.json $TIMETABLE_URL
     - npm run build
     - cp out/404/index.html out/404.html
     - rm -rf out/404
