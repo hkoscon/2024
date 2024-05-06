@@ -35,7 +35,7 @@ export default function Page() {
         <section className="section">
           <div className="card">
             <div className="card-header">
-              <h3 className="card-header-title">Accepted Proposal</h3>
+              <h3 className="card-header-title">Accepted Proposal(more to come)</h3>
             </div>
             <div className="card-content content">
               <ul>
