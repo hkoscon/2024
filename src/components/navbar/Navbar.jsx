@@ -59,6 +59,21 @@ export default function Navbar() {
 
       <div className={clsx('navbar-menu', { 'is-active': isNavOpen })}>
         <div className="navbar-start">
+          <div className="navbar-item">
+            <div className="buttons">
+              {process.env.NEXT_PUBLIC_TICKET_URL && (
+                <a
+                  className="button has-background-brand-color-yellow has-text-brand-color-blue"
+                  href={process.env.NEXT_PUBLIC_TICKET_URL}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Get Ticket
+                </a>
+              )}
+            </div>
+          </div>
+
           {enableCfp && !enableCfpResult && (
             <Link href="/cfp" className="navbar-item">
               Call for Proposal
@@ -100,22 +115,6 @@ export default function Navbar() {
                   {`HKOSCon ${year}`}
                 </a>
               ))}
-            </div>
-          </div>
-        </div>
-        <div className="navbar-end">
-          <div className="navbar-item">
-            <div className="buttons">
-              {process.env.NEXT_PUBLIC_TICKET_URL && (
-                <a
-                  className="button has-background-brand-color-yellow has-text-brand-color-blue"
-                  href={process.env.NEXT_PUBLIC_TICKET_URL}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  Get Ticket
-                </a>
-              )}
             </div>
           </div>
         </div>
