@@ -1,30 +1,42 @@
 @use "bulma/sass/utilities/mixins";
 
 .homePage {
-  &__cover {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    width: 100vw;
-    height: calc(100vw/1280*700);/* W:H = 1280:700 */
-    background-position: center;
-    background-size: cover;
-    @media (orientation: portrait) {
-      height: calc(100vw/850*700);
-    }
+  height: 100vh;
+  min-height: 770px;
+  background-position: center;
+  background-size: cover;
 
-    background-image: url(../assets/images/cover-sm.webp);
+  background-image: url(../assets/images/cover-sm.webp);
+  @include mixins.tablet {
+    background-image: url(../assets/images/cover-md.webp);
+  }
+  @include mixins.desktop {
+    background-image: url(../assets/images/cover-lg.webp);
+  }
+  @include mixins.widescreen {
+    background-image: url(../assets/images/cover-xl.webp);
+  }
+  @include mixins.fullhd {
+    background-image: url(../assets/images/cover.webp);
+  }
+
+  &__cover {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
     @include mixins.tablet {
-      background-image: url(../assets/images/cover-md.webp);
+      align-items: center;
     }
-    @include mixins.desktop {
-      background-image: url(../assets/images/cover-lg.webp);
-    }
-    @include mixins.widescreen {
-      background-image: url(../assets/images/cover-xl.webp);
-    }
-    @include mixins.fullhd {
-      background-image: url(../assets/images/cover.webp);
+  }
+  &__logo {
+    background-color: white;
+    padding: 1rem;
+  }
+  @include mixins.desktop {
+    &__media {
+      height: 265px;
     }
   }
 }
