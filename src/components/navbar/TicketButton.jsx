@@ -1,7 +1,5 @@
 'use client';
 
-import { useMemo } from 'react';
-
 /**
  * Get the ticket URL from the environment variables and append the affiliation code
  *
