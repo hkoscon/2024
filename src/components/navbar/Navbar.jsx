@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useState } from 'react';
+import dynamic from 'next/dynamic';
 import clsx from 'clsx';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -35,6 +36,11 @@ export default function Navbar() {
     setNavOpen(!isNavOpen);
   }, [isNavOpen]);
 
+  const TicketButton = dynamic(
+    () => import('../ticket-button'),
+    { ssr: false },
+  );
+
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
@@ -61,16 +67,7 @@ export default function Navbar() {
         <div className="navbar-start">
           <div className="navbar-item">
             <div className="buttons">
-              {process.env.NEXT_PUBLIC_TICKET_URL && (
-                <a
-                  className="button has-background-brand-color-yellow has-text-brand-color-blue"
-                  href={process.env.NEXT_PUBLIC_TICKET_URL}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  Get Ticket
-                </a>
-              )}
+              <TicketButton />
             </div>
           </div>
 
