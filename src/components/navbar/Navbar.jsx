@@ -4,14 +4,15 @@ import { useCallback, useState } from 'react';
 import clsx from 'clsx';
 import Link from 'next/link';
 import Image from 'next/image';
+import TicketButton from './TicketButton';
 import brandLogo from './brand.png';
-import TicketButton from '../ticket-button';
 
 import {
   enableCfp,
   enableCfpResult,
   enableSponsor,
   enableTimetable,
+  enableTicketSales,
 } from '../../app/features';
 
 import './navbar.scss';
@@ -60,20 +61,13 @@ export default function Navbar() {
 
       <div className={clsx('navbar-menu', { 'is-active': isNavOpen })}>
         <div className="navbar-start">
-          <div className="navbar-item">
-            <div className="buttons">
-              {process.env.NEXT_PUBLIC_TICKET_URL && (
-                <a
-                  className="button has-background-brand-color-yellow has-text-brand-color-blue"
-                  href={process.env.NEXT_PUBLIC_TICKET_URL}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  Get Ticket
-                </a>
-              )}
+          {enableTicketSales && (
+            <div className="navbar-item is-hidden-desktop">
+              <div className="buttons">
+                <TicketButton />
+              </div>
             </div>
-          </div>
+          )}
 
           {enableCfp && !enableCfpResult && (
             <Link href="/cfp" className="navbar-item">
@@ -119,6 +113,15 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+        {enableTicketSales && (
+          <div className="navbar-end is-hidden-touch">
+            <div className="navbar-item">
+              <div className="buttons">
+                <TicketButton />
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );

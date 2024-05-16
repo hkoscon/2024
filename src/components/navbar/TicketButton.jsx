@@ -1,3 +1,7 @@
+'use client';
+
+import { useMemo } from 'react';
+
 /**
  * Get the ticket URL from the environment variables and append the affiliation code
  *
@@ -32,7 +36,13 @@ function getTicketUrl() {
 }
 
 export default function TicketButton() {
-  const ticketUrl = getTicketUrl();
+  const ticketUrl = useMemo(
+    () => getTicketUrl(),
+    [
+      window.location.href,
+      window.localStorage.getItem('aff'),
+    ],
+  );
   return (
     <a
       className="button has-background-brand-color-yellow has-text-brand-color-blue"
