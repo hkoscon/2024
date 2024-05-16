@@ -1,10 +1,10 @@
 'use client';
 
 import { useCallback, useState } from 'react';
+import dynamic from 'next/dynamic';
 import clsx from 'clsx';
 import Link from 'next/link';
 import Image from 'next/image';
-import TicketButton from './TicketButton';
 import brandLogo from './brand.png';
 
 import {
@@ -36,6 +36,11 @@ export default function Navbar() {
   const toggleNavOpen = useCallback(() => {
     setNavOpen(!isNavOpen);
   }, [isNavOpen]);
+
+  const TicketButton = dynamic(
+    () => import('./TicketButton'),
+    { ssr: false },
+  );
 
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
