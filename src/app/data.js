@@ -1,14 +1,12 @@
 // eslint-disable-next-line import/no-unresolved
-import { conference } from './meta.json';
+import meta from './meta.json';
 // eslint-disable-next-line import/no-unresolved
-import { events } from './events.json';
+import eventData from './events.json';
 
-const { name } = conference;
+const { conference } = meta;
 
-const sponsors = conference.sponsors || {};
+export const { name } = conference;
 
-export {
-  name,
-  sponsors,
-  events,
-};
+export const sponsors = conference.sponsors || {};
+
+export const { events } = eventData;
