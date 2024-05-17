@@ -7,7 +7,7 @@ export default function SponsorPage() {
     <>
       <header className="hero is-medium">
         <div className="hero-body">
-          <h1 className="title cfpPage__hero__title">Sponsor</h1>
+          <h1 className="title">Sponsor</h1>
         </div>
       </header>
       <main className="container">
