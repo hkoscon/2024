@@ -10,7 +10,7 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/runtime": "^7.24.5",
     "bulma": "^1.0.0",
     "clsx": "^2.1.0",
     "next": "^14.1.1",
@@ -19,18 +19,22 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.24.5",
     "@babel/eslint-parser": "^7.24.5",
-    "@babel/plugin-syntax-jsx": "^7.24.1",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.24.3",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^15.0.2",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-next": "^14.1.1",
     "jest": "^29.7.0",
     "jest-cli": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "jest-junit": "^16.0.0",
     "react-test-renderer": "^18.2.0",
-    "sass": "^1.72.0"
+    "sass": "^1.72.0",
+    "sharp": "^0.33.4"
   }
 }

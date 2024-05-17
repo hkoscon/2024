@@ -8,9 +8,6 @@ const nextConfig = {
   },
   images: { unoptimized: true },
   trailingSlash: true,
-  experimental: {
-    forceSwcTransforms: true,
-  },
 };
 
 export default nextConfig;
