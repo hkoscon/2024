@@ -86,6 +86,12 @@ export default function Navbar() {
             </Link>
           )}
 
+          {enableTimetable && (
+            <Link href="/timetable" className="navbar-item">
+              Timetable
+            </Link>
+          )}
+
           <div className="navbar-item has-dropdown is-hoverable">
             <button type="button" className="navbar-link">
               About
