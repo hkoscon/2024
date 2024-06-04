@@ -20,9 +20,9 @@ function writeData(data) {
   return new Promise((resolve, reject) => {
     fs.mkdir(path.dirname(dest), (err) => {
       if (err) { reject(err); } else {
-        fs.writeFile(dest, JSON.stringify(data, null, 2), (err) => {
-          if (err) {
-            reject(err);
+        fs.writeFile(dest, JSON.stringify(data, null, 2), (werr) => {
+          if (werr) {
+            reject(werr);
           } else {
             resolve();
           }
