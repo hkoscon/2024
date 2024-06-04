@@ -1,5 +1,10 @@
 import PropTypes from 'prop-types';
+import Image from 'next/image';
 import { timetable } from '../../data';
+import TopicDescription from './TopicDescription';
+import speakerPlaceholder from '../../../assets/images/placeholder.png';
+
+import './page.scss';
 
 const topicsMap = new Map();
 timetable.forEach(({ day, date, timeslots }) => {
@@ -26,15 +31,14 @@ export async function generateStaticParams() {
 
 export default function Page({ params: { topic: topicId } }) {
   const topic = topicsMap.get(topicId);
-  console.log(topic);
   return (
     <>
-      <section className="hero is-medium">
+      <section className="hero is-medium has-background-brand-color-blue">
         <div className="hero-body">
-          <h2 className="title">{topic.display}</h2>
+          <h2 className="title has-text-brand-color-yellow">{topic.display}</h2>
         </div>
       </section>
-      <section className="container my-4">
+      <section className="container my-4 content topicPage__metadata">
         <p>
           Time:&nbsp;
           <time dateTime={`${topic.date}T${topic.startTime}:00+08:00`}>
@@ -45,9 +49,41 @@ export default function Page({ params: { topic: topicId } }) {
         <p>{`Language: ${topic.language}`}</p>
         <p>{`Level: ${topic.level}`}</p>
       </section>
+      <section className="container my-4 topicPage__description">
+        <TopicDescription description={topic.description} />
+      </section>
       <section className="container my-4">
-        {/* eslint-disable-next-line react/no-danger */}
-        <p dangerouslySetInnerHTML={{ __html: topic.description }} />
+        {topic.speakers.map(({
+          name,
+          country,
+          community,
+          thumbnail,
+          description,
+        }) => (
+          <div className="box my-2" key={name}>
+            <div className="media">
+              <div className="media-left">
+                <figure className="image is-128x128">
+                  {thumbnail ? (
+                    <img src={thumbnail} alt={name} />
+                  ) : (
+                    <Image src={speakerPlaceholder} width="128" height="128" alt={name} />
+                  )}
+                </figure>
+              </div>
+              <div className="media-content">
+                <div className="content">
+                  <p>
+                    <strong>{`${name} / ${country}`}</strong>
+                  </p>
+                  <p>{community}</p>
+                  <hr />
+                  <TopicDescription description={description} />
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
       </section>
     </>
   );

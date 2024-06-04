@@ -1,0 +1,16 @@
+@use "bulma/sass/utilities/mixins";
+
+.topicPage {
+  &__metadata {
+    @include mixins.mobile {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  &__description {
+    @include mixins.mobile {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}
