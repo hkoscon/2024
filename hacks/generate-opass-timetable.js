@@ -30,14 +30,16 @@ function writeData(data) {
 
 function findAllVenue(days) {
   const rooms = days
-    .flatMap(({ timeslots }) => timeslots.flatMap(({ events }) => (events.map(({ venue }) => venue.name))))
+    .flatMap(
+      ({ timeslots }) => timeslots.flatMap(({ events }) => (events.map(({ venue }) => venue.name))),
+    )
     .filter((venue) => !!venue);
   return Array.from(new Set(rooms))
     .map((room) => ({
       id: room,
       zh: { name: room },
       en: { name: room },
-    }))
+    }));
 }
 
 function findAllSpeakers(days) {
@@ -62,21 +64,24 @@ function findAllSpeakers(days) {
 
 function findAllSessions(days) {
   return days
-    .flatMap(({ date, timeslots }) =>
-      timeslots.flatMap(({ events, startTime, endTime }) => (events.map(({ id, venue, display, speakers, internal, topic }) => {
-      const link = internal.match(/([\w-]+)$/)[0];
-      return {
-        id,
-        type: topic ? 'speech' : 'event',
-        room: venue.name,
-        start: `${date}T${startTime}:00+08:00`,
-        end: `${date}T${endTime}:00+08:00`,
-        url: `https://hkoscon.org/2024/topic/${link}`,
-        zh: { title: display },
-        en: { title: display },
-        speakers: speakers.map((speaker) => `${speaker.name}:${speaker.country}:${speaker.community}`),
-      };
-    }))))
+    .flatMap(
+      ({ date, timeslots }) => timeslots.flatMap(({ events, startTime, endTime }) => (events.map(({
+        id, venue, display, speakers, internal, topic,
+      }) => {
+        const link = internal.match(/([\w-]+)$/)[0];
+        return {
+          id,
+          type: topic ? 'speech' : 'event',
+          room: venue.name,
+          start: `${date}T${startTime}:00+08:00`,
+          end: `${date}T${endTime}:00+08:00`,
+          url: `https://hkoscon.org/2024/topic/${link}`,
+          zh: { title: display },
+          en: { title: display },
+          speakers: speakers.map((speaker) => `${speaker.name}:${speaker.country}:${speaker.community}`),
+        };
+      }))),
+    );
 }
 
 (async () => {
