@@ -44,7 +44,7 @@ export default function Page({ params: { topic: topicId } }) {
   return (
     <>
       <section className="hero is-medium has-background-brand-color-blue">
-        <div className="hero-body">
+        <div className="hero-body container px-0">
           <h1 className="title has-text-brand-color-yellow">{topic.display}</h1>
         </div>
       </section>

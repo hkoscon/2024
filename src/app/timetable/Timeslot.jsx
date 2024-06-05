@@ -6,7 +6,7 @@ import './timeslot.scss';
 export default function Timeslot({ startTime, events }) {
   return (
     <div className="columns">
-      <div className="column is-1 timeslot__startTime">
+      <div className="column is-1-desktop is-2-tablet timeslot__startTime">
         <span className="timeslot__startTime__hour">{startTime.substring(0, 2)}</span>
         <span className="timeslot__startTime__minute">{startTime.substring(3, 5)}</span>
       </div>
