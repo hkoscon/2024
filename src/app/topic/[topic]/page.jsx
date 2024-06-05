@@ -29,13 +29,23 @@ export async function generateStaticParams() {
     .map((key) => ({ topic: key }));
 }
 
+export async function generateMetadata({ params: { topic: topicId } }) {
+  const topic = topicsMap.get(topicId);
+  return {
+    title: topic.display,
+    openGraph: {
+      title: `${topic.display} | Hong Kong Open Source Conference 2024`,
+    },
+  };
+}
+
 export default function Page({ params: { topic: topicId } }) {
   const topic = topicsMap.get(topicId);
   return (
     <>
       <section className="hero is-medium has-background-brand-color-blue">
         <div className="hero-body">
-          <h2 className="title has-text-brand-color-yellow">{topic.display}</h2>
+          <h1 className="title has-text-brand-color-yellow">{topic.display}</h1>
         </div>
       </section>
       <section className="container my-4 content topicPage__metadata">
