@@ -7,7 +7,7 @@ export default function SpeakerRow({
 }) {
   return (
     <div className="media my-1 px-4 py-2 speakerList__speaker">
-      <figure className="image is-64x64">
+      <figure className="image is-64x64 media-left">
         {thumbnail ? (
           <img src={thumbnail} alt={name} />
         ) : (
