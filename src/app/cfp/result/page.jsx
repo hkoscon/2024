@@ -39,8 +39,24 @@ export default function Page() {
             </div>
             <div className="card-content content">
               <ul>
-                {events.map((event) => (
-                  <li key={event.id}>{event.display}</li>
+                {events.map((event) => event.display).sort().reduce((acc, event) => {
+                  switch (event) {
+                    case 'Lunch':
+                    case 'Break':
+                    case 'Keynote Session':
+                    case 'Closing':
+                    case 'Opening':
+                    case 'Lightning Talk':
+                      return acc;
+                    default:
+                      if (event.startsWith('Group Photo')) return acc;
+                  }
+                  if (event !== acc[acc.length - 1]) {
+                    acc.push(event);
+                  }
+                  return acc;
+                }, []).map((event) => (
+                  <li key={event}>{event}</li>
                 ))}
               </ul>
             </div>
