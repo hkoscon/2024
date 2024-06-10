@@ -1,0 +1,1187 @@
+{
+  "rooms": [
+    {
+      "id": "MWT1",
+      "zh": {
+        "name": "MWT1"
+      },
+      "en": {
+        "name": "MWT1"
+      }
+    },
+    {
+      "id": "MWT2",
+      "zh": {
+        "name": "MWT2"
+      },
+      "en": {
+        "name": "MWT2"
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "id": 475,
+      "type": "event",
+      "room": "MWT1",
+      "start": "2024-07-05T10:00:00+08:00",
+      "end": "2024-07-05T10:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/opening-1",
+      "zh": {
+        "title": "Opening"
+      },
+      "en": {
+        "title": "Opening"
+      },
+      "speakers": []
+    },
+    {
+      "id": 473,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-05T10:00:00+08:00",
+      "end": "2024-07-05T10:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/open-data-using-web30",
+      "zh": {
+        "title": "Open Data using Web3.0"
+      },
+      "en": {
+        "title": "Open Data using Web3.0"
+      },
+      "speakers": [
+        "Mr. Emil Chan:Hong Kong:Smart City Consortium",
+        "Mr. Alex Hung:Hong Kong:Manulife Investment Management",
+        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   ",
+        "Mr. Ben Wong:Hong Kong:Elite Paradise Limited"
+      ]
+    },
+    {
+      "id": 476,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-05T10:15:00+08:00",
+      "end": "2024-07-05T10:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/keynote-session",
+      "zh": {
+        "title": "Keynote Session"
+      },
+      "en": {
+        "title": "Keynote Session"
+      },
+      "speakers": []
+    },
+    {
+      "id": 478,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-05T10:15:00+08:00",
+      "end": "2024-07-05T10:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/open-data-using-web30-0",
+      "zh": {
+        "title": "Open Data using Web3.0"
+      },
+      "en": {
+        "title": "Open Data using Web3.0"
+      },
+      "speakers": [
+        "Mr. Emil Chan:Hong Kong:Smart City Consortium",
+        "Mr. Alex Hung:Hong Kong:Manulife Investment Management",
+        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   ",
+        "Mr. Ben Wong:Hong Kong:Elite Paradise Limited"
+      ]
+    },
+    {
+      "id": 477,
+      "type": "event",
+      "room": "MWT1",
+      "start": "2024-07-05T10:45:00+08:00",
+      "end": "2024-07-05T11:00:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-0",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 479,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-05T10:45:00+08:00",
+      "end": "2024-07-05T11:00:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/open-data-using-web30-1",
+      "zh": {
+        "title": "Open Data using Web3.0"
+      },
+      "en": {
+        "title": "Open Data using Web3.0"
+      },
+      "speakers": [
+        "Mr. Emil Chan:Hong Kong:Smart City Consortium",
+        "Mr. Alex Hung:Hong Kong:Manulife Investment Management",
+        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   ",
+        "Mr. Ben Wong:Hong Kong:Elite Paradise Limited"
+      ]
+    },
+    {
+      "id": 450,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-05T11:00:00+08:00",
+      "end": "2024-07-05T11:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/performance-troubleshooting-mysql",
+      "zh": {
+        "title": "Performance & Troubleshooting for MySQL"
+      },
+      "en": {
+        "title": "Performance & Troubleshooting for MySQL"
+      },
+      "speakers": [
+        "Ivan Tu:Taiwan:Oracle MySQL Business Unit"
+      ]
+    },
+    {
+      "id": 474,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-05T11:00:00+08:00",
+      "end": "2024-07-05T11:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/reuse-mapping-data-startups",
+      "zh": {
+        "title": "Reuse of Mapping Data by Startups"
+      },
+      "en": {
+        "title": "Reuse of Mapping Data by Startups"
+      },
+      "speakers": [
+        "Mr. Gene Soo:Hong Kong:MTR",
+        "Representative from Mapxus:Hong Kong:Mapxus",
+        "Wai Chun, Law:Hong Kong:hkbus.app"
+      ]
+    },
+    {
+      "id": 482,
+      "type": "event",
+      "room": "MWT1",
+      "start": "2024-07-05T11:30:00+08:00",
+      "end": "2024-07-05T11:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-1",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 480,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-05T11:30:00+08:00",
+      "end": "2024-07-05T11:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/reuse-mapping-data-startups-0",
+      "zh": {
+        "title": "Reuse of Mapping Data by Startups"
+      },
+      "en": {
+        "title": "Reuse of Mapping Data by Startups"
+      },
+      "speakers": [
+        "Prof. Alain Chiaradia:Hong Kong: The University of Hong Kong ",
+        "Representative from Mapxus:Hong Kong:Mapxus",
+        "Wai Chun, Law:Hong Kong:hkbus.app"
+      ]
+    },
+    {
+      "id": 457,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-05T11:45:00+08:00",
+      "end": "2024-07-05T12:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/building-scalable-and-efficient-ai-platforms-kubernetes-and-gke",
+      "zh": {
+        "title": "Building Scalable and Efficient AI Platforms on Kubernetes and GKE"
+      },
+      "en": {
+        "title": "Building Scalable and Efficient AI Platforms on Kubernetes and GKE"
+      },
+      "speakers": [
+        "Tommy Tse:Hong Kong:Google"
+      ]
+    },
+    {
+      "id": 481,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-05T11:45:00+08:00",
+      "end": "2024-07-05T12:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/reuse-mapping-data-startups-1",
+      "zh": {
+        "title": "Reuse of Mapping Data by Startups"
+      },
+      "en": {
+        "title": "Reuse of Mapping Data by Startups"
+      },
+      "speakers": [
+        "Prof. Alain Chiaradia:Hong Kong: The University of Hong Kong ",
+        "Representative from Mapxus:Hong Kong:Mapxus",
+        "Wai Chun, Law:Hong Kong:hkbus.app"
+      ]
+    },
+    {
+      "id": 484,
+      "type": "event",
+      "room": "MWT1",
+      "start": "2024-07-05T12:15:00+08:00",
+      "end": "2024-07-05T12:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-2",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 472,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-05T12:15:00+08:00",
+      "end": "2024-07-05T12:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/spatial-patterns-deprivation-hong-kong-linkage-census-data-and-mapping-data",
+      "zh": {
+        "title": "Spatial Patterns of Deprivation in Hong Kong: Linkage of Census data and Mapping data"
+      },
+      "en": {
+        "title": "Spatial Patterns of Deprivation in Hong Kong: Linkage of Census data and Mapping data"
+      },
+      "speakers": [
+        "Prof. John Bacon-Shone:Hong Kong:The University of Hong Kong"
+      ]
+    },
+    {
+      "id": 438,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-05T12:30:00+08:00",
+      "end": "2024-07-05T12:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/scale-out-things-azure",
+      "zh": {
+        "title": "Scale out things in Azure"
+      },
+      "en": {
+        "title": "Scale out things in Azure"
+      },
+      "speakers": [
+        "Man Kit Cheung, Peter:Hong Kong:Quantr Foundation"
+      ]
+    },
+    {
+      "id": 483,
+      "type": "event",
+      "room": "MWT2",
+      "start": "2024-07-05T12:30:00+08:00",
+      "end": "2024-07-05T12:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/spatial-patterns-deprivation-hong-kong-linkage-census-data-and-mapping-data-0",
+      "zh": {
+        "title": "Spatial Patterns of Deprivation in Hong Kong: Linkage of Census data and Mapping data"
+      },
+      "en": {
+        "title": "Spatial Patterns of Deprivation in Hong Kong: Linkage of Census data and Mapping data"
+      },
+      "speakers": [
+        "Prof. John Bacon-Shone:Hong Kong:The University of Hong Kong"
+      ]
+    },
+    {
+      "id": 454,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-05T12:45:00+08:00",
+      "end": "2024-07-05T13:00:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/introducing-advanced-techniques-enhancing-large-language-models-llms",
+      "zh": {
+        "title": "Introducing Advanced Techniques for Enhancing Large Language Models (LLMs)"
+      },
+      "en": {
+        "title": "Introducing Advanced Techniques for Enhancing Large Language Models (LLMs)"
+      },
+      "speakers": [
+        "Dr. Chung Ng:Hong Kong:HKT Limited"
+      ]
+    },
+    {
+      "id": 485,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-05T13:00:00+08:00",
+      "end": "2024-07-05T13:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/group-photo-mini-ctf-announcement",
+      "zh": {
+        "title": "Group Photo + mini-CTF announcement"
+      },
+      "en": {
+        "title": "Group Photo + mini-CTF announcement"
+      },
+      "speakers": []
+    },
+    {
+      "id": 486,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-05T13:15:00+08:00",
+      "end": "2024-07-05T15:00:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/lunch-3",
+      "zh": {
+        "title": "Lunch"
+      },
+      "en": {
+        "title": "Lunch"
+      },
+      "speakers": []
+    },
+    {
+      "id": 452,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-05T15:00:00+08:00",
+      "end": "2024-07-05T15:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/chat-mysql-langchain",
+      "zh": {
+        "title": "Chat with MySQL with LangChain"
+      },
+      "en": {
+        "title": "Chat with MySQL with LangChain"
+      },
+      "speakers": [
+        "Ryan Kuan:Malaysia:Oracle Corporation Malaysia"
+      ]
+    },
+    {
+      "id": 487,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-05T15:30:00+08:00",
+      "end": "2024-07-05T15:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-3",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 449,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-05T15:45:00+08:00",
+      "end": "2024-07-05T16:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/bun-deno-nodejs-which-and-how",
+      "zh": {
+        "title": "Bun, Deno, Node.js. Which and how?"
+      },
+      "en": {
+        "title": "Bun, Deno, Node.js. Which and how?"
+      },
+      "speakers": [
+        "Alex Lau:Hong Kong:Tecky Academy"
+      ]
+    },
+    {
+      "id": 488,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-05T16:15:00+08:00",
+      "end": "2024-07-05T16:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-4",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 443,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-05T16:30:00+08:00",
+      "end": "2024-07-05T17:00:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/what-platform-engineering",
+      "zh": {
+        "title": "What is Platform Engineering?"
+      },
+      "en": {
+        "title": "What is Platform Engineering?"
+      },
+      "speakers": [
+        "Dick Tang:Hong Kong:"
+      ]
+    },
+    {
+      "id": 489,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-05T17:00:00+08:00",
+      "end": "2024-07-05T17:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-5",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 447,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-05T17:15:00+08:00",
+      "end": "2024-07-05T17:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/make-lts-android-os-industrial-devices",
+      "zh": {
+        "title": "Make a LTS Android OS for industrial devices"
+      },
+      "en": {
+        "title": "Make a LTS Android OS for industrial devices"
+      },
+      "speakers": [
+        "Wig Cheng:Taiwan:IEI Group"
+      ]
+    },
+    {
+      "id": 491,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-06T10:00:00+08:00",
+      "end": "2024-07-06T10:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/opening-2",
+      "zh": {
+        "title": "Opening"
+      },
+      "en": {
+        "title": "Opening"
+      },
+      "speakers": []
+    },
+    {
+      "id": 445,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-06T10:15:00+08:00",
+      "end": "2024-07-06T10:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/hedy-multi-lingual-programming-education",
+      "zh": {
+        "title": "Hedy: Multi-lingual programming for education"
+      },
+      "en": {
+        "title": "Hedy: Multi-lingual programming for education"
+      },
+      "speakers": [
+        "Jesus Pelay:Venezuela:VU Amsterdam"
+      ]
+    },
+    {
+      "id": 460,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-06T10:15:00+08:00",
+      "end": "2024-07-06T10:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/refining-data-structure-algorithm-implementations-linux-kernel-improved-performance",
+      "zh": {
+        "title": "Refining Data Structure & Algorithm Implementations in the Linux Kernel for Improved Performance"
+      },
+      "en": {
+        "title": "Refining Data Structure & Algorithm Implementations in the Linux Kernel for Improved Performance"
+      },
+      "speakers": [
+        "Kuan-Wei Chiu:Taiwan:National Yang Ming Chiao Tung University"
+      ]
+    },
+    {
+      "id": 492,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-06T10:45:00+08:00",
+      "end": "2024-07-06T11:00:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-6",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 436,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-06T11:00:00+08:00",
+      "end": "2024-07-06T11:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/azure-adventure-rpg-game-test-students-azure-practical-skills",
+      "zh": {
+        "title": "Azure Adventure – A RPG game to test student’s Azure practical skills"
+      },
+      "en": {
+        "title": "Azure Adventure – A RPG game to test student’s Azure practical skills"
+      },
+      "speakers": [
+        "Cyrus Wong:Hong Kong:Hong Kong Institute of Information Technology (HKIIT) at IVE (Lee Wai Lee)",
+        "Lau Mei Yan, Mandy:Hong Kong: Hong Kong Institute of Information Technology (HKIIT) at IVE (Lee Wai Lee)"
+      ]
+    },
+    {
+      "id": 461,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-06T11:00:00+08:00",
+      "end": "2024-07-06T11:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/practical-tactics-optimizing-jvm-docker-images-enhanced-efficiency-performance-and-better",
+      "zh": {
+        "title": "Practical Tactics for Optimizing JVM Docker Images for Enhanced Efficiency, Performance, and Better Developer Experience"
+      },
+      "en": {
+        "title": "Practical Tactics for Optimizing JVM Docker Images for Enhanced Efficiency, Performance, and Better Developer Experience"
+      },
+      "speakers": [
+        "Shengyou Fan:Taiwan:JetBrains"
+      ]
+    },
+    {
+      "id": 490,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-06T11:30:00+08:00",
+      "end": "2024-07-06T11:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-7",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 440,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-06T11:45:00+08:00",
+      "end": "2024-07-06T12:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/hkbusapp-free-and-ad-free-bus-app-costing-hkd-1000-year-support-40k-daily-users",
+      "zh": {
+        "title": "hkbus.app - Free and Ad-free bus app costing HKD 1000  per year to support ~40k daily users"
+      },
+      "en": {
+        "title": "hkbus.app - Free and Ad-free bus app costing HKD 1000  per year to support ~40k daily users"
+      },
+      "speakers": [
+        "Wai Chun, Law:Hong Kong:hkbus.app"
+      ]
+    },
+    {
+      "id": 463,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-06T11:45:00+08:00",
+      "end": "2024-07-06T12:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/moving-pmpc-public-money-public-transparent-digital-servicepmptds-what-went-wrong-and-how",
+      "zh": {
+        "title": "Moving from the PM,PC to the Public Money, Public Transparent Digital Service(PMPTDS): what went wrong and how could we improve it?"
+      },
+      "en": {
+        "title": "Moving from the PM,PC to the Public Money, Public Transparent Digital Service(PMPTDS): what went wrong and how could we improve it?"
+      },
+      "speakers": [
+        "Kuo-Chieh Ting:Taiwan:FutureEnviz"
+      ]
+    },
+    {
+      "id": 493,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-06T12:15:00+08:00",
+      "end": "2024-07-06T12:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-8",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 458,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-06T12:30:00+08:00",
+      "end": "2024-07-06T12:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/learn-supply-chain-attacks-through-xz-utils-backdoor",
+      "zh": {
+        "title": "Learn Supply Chain Attacks Through XZ Utils Backdoor"
+      },
+      "en": {
+        "title": "Learn Supply Chain Attacks Through XZ Utils Backdoor"
+      },
+      "speakers": [
+        "Charles Cheng:Hong Kong:Black Bauhinia"
+      ]
+    },
+    {
+      "id": 465,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-06T12:30:00+08:00",
+      "end": "2024-07-06T12:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/migrating-foreground-service-workmanager",
+      "zh": {
+        "title": "Migrating from Foreground Service to WorkManager"
+      },
+      "en": {
+        "title": "Migrating from Foreground Service to WorkManager"
+      },
+      "speakers": [
+        "Aayush Gupta:India:Independent Contractor"
+      ]
+    },
+    {
+      "id": 494,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-06T13:00:00+08:00",
+      "end": "2024-07-06T13:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/group-photo-0",
+      "zh": {
+        "title": "Group Photo"
+      },
+      "en": {
+        "title": "Group Photo"
+      },
+      "speakers": []
+    },
+    {
+      "id": 495,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-06T13:15:00+08:00",
+      "end": "2024-07-06T15:00:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/lunch-4",
+      "zh": {
+        "title": "Lunch"
+      },
+      "en": {
+        "title": "Lunch"
+      },
+      "speakers": []
+    },
+    {
+      "id": 441,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-06T15:00:00+08:00",
+      "end": "2024-07-06T15:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/zoraxy-reverse-proxy-server-networking-noobs",
+      "zh": {
+        "title": "Zoraxy - A reverse proxy server for networking noobs"
+      },
+      "en": {
+        "title": "Zoraxy - A reverse proxy server for networking noobs"
+      },
+      "speakers": [
+        "Toby Chui:Hong Kong:NCKU (Taiwan) / Aprintlab"
+      ]
+    },
+    {
+      "id": 455,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-06T15:00:00+08:00",
+      "end": "2024-07-06T15:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/building-your-own-jarvis-exploring-llm-integration-options-home-assistante-future-development",
+      "zh": {
+        "title": "Building your own Jarvis? Exploring LLM integration options in Home Assistante future development in this area. If you"
+      },
+      "en": {
+        "title": "Building your own Jarvis? Exploring LLM integration options in Home Assistante future development in this area. If you"
+      },
+      "speakers": [
+        "Women Techmakers Hong Kong:Hong Kong:Women Techmakers Hong Kong"
+      ]
+    },
+    {
+      "id": 496,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-06T15:30:00+08:00",
+      "end": "2024-07-06T15:45:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-9",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 442,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-06T15:45:00+08:00",
+      "end": "2024-07-06T16:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/beyond-software-defenses-unveiling-power-pointer-authentication-and-branch-target",
+      "zh": {
+        "title": "Beyond Software Defenses: Unveiling the Power of Pointer Authentication and Branch Target Identification"
+      },
+      "en": {
+        "title": "Beyond Software Defenses: Unveiling the Power of Pointer Authentication and Branch Target Identification"
+      },
+      "speakers": [
+        "Michalis Pappas:Germany:Staff Engineer at Unikraft.io"
+      ]
+    },
+    {
+      "id": 439,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-06T15:45:00+08:00",
+      "end": "2024-07-06T16:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/metrics-logs-traces-and-profiles-grafana-lgtm",
+      "zh": {
+        "title": "Metrics, Logs, Traces and Profiles with Grafana LGTM"
+      },
+      "en": {
+        "title": "Metrics, Logs, Traces and Profiles with Grafana LGTM"
+      },
+      "speakers": [
+        "Wong Hoi Sing Edison:Hong Kong:PantaRei Design Limited"
+      ]
+    },
+    {
+      "id": 497,
+      "type": "event",
+      "room": "",
+      "start": "2024-07-06T16:15:00+08:00",
+      "end": "2024-07-06T16:30:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/break-10",
+      "zh": {
+        "title": "Break"
+      },
+      "en": {
+        "title": "Break"
+      },
+      "speakers": []
+    },
+    {
+      "id": 498,
+      "type": "event",
+      "room": "MWT2",
+      "start": "2024-07-06T16:30:00+08:00",
+      "end": "2024-07-06T17:00:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/lightning-talk-0",
+      "zh": {
+        "title": "Lightning Talk"
+      },
+      "en": {
+        "title": "Lightning Talk"
+      },
+      "speakers": []
+    },
+    {
+      "id": 499,
+      "type": "event",
+      "room": "MWT2",
+      "start": "2024-07-06T17:00:00+08:00",
+      "end": "2024-07-06T17:15:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/closing-1",
+      "zh": {
+        "title": "Closing"
+      },
+      "en": {
+        "title": "Closing"
+      },
+      "speakers": []
+    }
+  ],
+  "speakers": [
+    {
+      "id": "Mr. Emil Chan:Hong Kong:Smart City Consortium",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Mr. Emil Chan",
+        "bio": ""
+      },
+      "en": {
+        "name": "Mr. Emil Chan",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Mr. Alex Hung:Hong Kong:Manulife Investment Management",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Mr. Alex Hung",
+        "bio": ""
+      },
+      "en": {
+        "name": "Mr. Alex Hung",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   ",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Mr. Joshua Chu",
+        "bio": ""
+      },
+      "en": {
+        "name": "Mr. Joshua Chu",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Mr. Ben Wong:Hong Kong:Elite Paradise Limited",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Mr. Ben Wong",
+        "bio": ""
+      },
+      "en": {
+        "name": "Mr. Ben Wong",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Ivan Tu:Taiwan:Oracle MySQL Business Unit",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-05/Ivan%20Tu%20250.jpg",
+      "zh": {
+        "name": "Ivan Tu",
+        "bio": ""
+      },
+      "en": {
+        "name": "Ivan Tu",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Mr. Gene Soo:Hong Kong:MTR",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Mr. Gene Soo",
+        "bio": ""
+      },
+      "en": {
+        "name": "Mr. Gene Soo",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Representative from Mapxus:Hong Kong:Mapxus",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Representative from Mapxus",
+        "bio": ""
+      },
+      "en": {
+        "name": "Representative from Mapxus",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Wai Chun, Law:Hong Kong:hkbus.app",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2021-07/chun.jpeg",
+      "zh": {
+        "name": "Wai Chun, Law",
+        "bio": ""
+      },
+      "en": {
+        "name": "Wai Chun, Law",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Prof. Alain Chiaradia:Hong Kong: The University of Hong Kong ",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Prof. Alain Chiaradia",
+        "bio": ""
+      },
+      "en": {
+        "name": "Prof. Alain Chiaradia",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Tommy Tse:Hong Kong:Google",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Tommy%20Tse%20250.jpg",
+      "zh": {
+        "name": "Tommy Tse",
+        "bio": ""
+      },
+      "en": {
+        "name": "Tommy Tse",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Prof. John Bacon-Shone:Hong Kong:The University of Hong Kong",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2023-05/Prof.%20John%20Bacon-Shone_square.jpg",
+      "zh": {
+        "name": "Prof. John Bacon-Shone",
+        "bio": ""
+      },
+      "en": {
+        "name": "Prof. John Bacon-Shone",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Man Kit Cheung, Peter:Hong Kong:Quantr Foundation",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Man%20Kit%20Cheung%20250.jpg",
+      "zh": {
+        "name": "Man Kit Cheung, Peter",
+        "bio": ""
+      },
+      "en": {
+        "name": "Man Kit Cheung, Peter",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Dr. Chung Ng:Hong Kong:HKT Limited",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-05/Chung%20Ng%20250_0.jpg",
+      "zh": {
+        "name": "Dr. Chung Ng",
+        "bio": ""
+      },
+      "en": {
+        "name": "Dr. Chung Ng",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Ryan Kuan:Malaysia:Oracle Corporation Malaysia",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-05/Ryan%20Kuan%20250.jpg",
+      "zh": {
+        "name": "Ryan Kuan",
+        "bio": ""
+      },
+      "en": {
+        "name": "Ryan Kuan",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Alex Lau:Hong Kong:Tecky Academy",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-05/Alex%20Lau.jpg",
+      "zh": {
+        "name": "Alex Lau",
+        "bio": ""
+      },
+      "en": {
+        "name": "Alex Lau",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Dick Tang:Hong Kong:",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2019-03/Dick%20Tang.jpg",
+      "zh": {
+        "name": "Dick Tang",
+        "bio": ""
+      },
+      "en": {
+        "name": "Dick Tang",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Wig Cheng:Taiwan:IEI Group",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-05/Wig%20Cheng%20250.jpg",
+      "zh": {
+        "name": "Wig Cheng",
+        "bio": ""
+      },
+      "en": {
+        "name": "Wig Cheng",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Jesus Pelay:Venezuela:VU Amsterdam",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Jesus%20Pelay%20250.jpg",
+      "zh": {
+        "name": "Jesus Pelay",
+        "bio": ""
+      },
+      "en": {
+        "name": "Jesus Pelay",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Kuan-Wei Chiu:Taiwan:National Yang Ming Chiao Tung University",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Kuan-Wei%20Chiu%20250.jpg",
+      "zh": {
+        "name": "Kuan-Wei Chiu",
+        "bio": ""
+      },
+      "en": {
+        "name": "Kuan-Wei Chiu",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Cyrus Wong:Hong Kong:Hong Kong Institute of Information Technology (HKIIT) at IVE (Lee Wai Lee)",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-05/Cyrus%20Wong%20250.jpg",
+      "zh": {
+        "name": "Cyrus Wong",
+        "bio": ""
+      },
+      "en": {
+        "name": "Cyrus Wong",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Lau Mei Yan, Mandy:Hong Kong: Hong Kong Institute of Information Technology (HKIIT) at IVE (Lee Wai Lee)",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Mandy%20Lau%20250.jpg",
+      "zh": {
+        "name": "Lau Mei Yan, Mandy",
+        "bio": ""
+      },
+      "en": {
+        "name": "Lau Mei Yan, Mandy",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Shengyou Fan:Taiwan:JetBrains",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Shengyou%20Fan%20250.jpg",
+      "zh": {
+        "name": "Shengyou Fan",
+        "bio": ""
+      },
+      "en": {
+        "name": "Shengyou Fan",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Kuo-Chieh Ting:Taiwan:FutureEnviz",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Kuo-Chieh%20Ting.jpg",
+      "zh": {
+        "name": "Kuo-Chieh Ting",
+        "bio": ""
+      },
+      "en": {
+        "name": "Kuo-Chieh Ting",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Charles Cheng:Hong Kong:Black Bauhinia",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Charles%20Cheng%20250.jpg",
+      "zh": {
+        "name": "Charles Cheng",
+        "bio": ""
+      },
+      "en": {
+        "name": "Charles Cheng",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Aayush Gupta:India:Independent Contractor",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Aayush%20Gupta%20250.jpg",
+      "zh": {
+        "name": "Aayush Gupta",
+        "bio": ""
+      },
+      "en": {
+        "name": "Aayush Gupta",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Toby Chui:Hong Kong:NCKU (Taiwan) / Aprintlab",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2020-05/Toby%20Chui.png",
+      "zh": {
+        "name": "Toby Chui",
+        "bio": ""
+      },
+      "en": {
+        "name": "Toby Chui",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Women Techmakers Hong Kong:Hong Kong:Women Techmakers Hong Kong",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/WTMHK%20250.jpg",
+      "zh": {
+        "name": "Women Techmakers Hong Kong",
+        "bio": ""
+      },
+      "en": {
+        "name": "Women Techmakers Hong Kong",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Michalis Pappas:Germany:Staff Engineer at Unikraft.io",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2023-05/michalispappas.jpg",
+      "zh": {
+        "name": "Michalis Pappas",
+        "bio": ""
+      },
+      "en": {
+        "name": "Michalis Pappas",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Wong Hoi Sing Edison:Hong Kong:PantaRei Design Limited",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2019-03/Wong%20Hoi%20Sing%20Edison.jpg",
+      "zh": {
+        "name": "Wong Hoi Sing Edison",
+        "bio": ""
+      },
+      "en": {
+        "name": "Wong Hoi Sing Edison",
+        "bio": ""
+      }
+    }
+  ],
+  "session_types": [
+    {
+      "id": "speech",
+      "zh": {
+        "name": "Speech"
+      },
+      "en": {
+        "name": "Speech"
+      }
+    },
+    {
+      "id": "event",
+      "zh": {
+        "name": "Event"
+      },
+      "en": {
+        "name": "Event"
+      }
+    }
+  ],
+  "tags": []
+}
