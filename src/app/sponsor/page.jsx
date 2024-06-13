@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-unresolved
-import { sponsors as sponsorData } from '../data';
+import { sponsors as sponsorData, supportOrg } from '../data';
 import SponsorTier from './SponsorTier';
 
 export default function SponsorPage() {
@@ -7,7 +7,7 @@ export default function SponsorPage() {
     <>
       <header className="hero is-medium">
         <div className="hero-body">
-          <h1 className="title">Sponsor</h1>
+          <h1 className="title">Sponsor & Supporting Organization</h1>
         </div>
       </header>
       <main className="container">
@@ -21,6 +21,9 @@ export default function SponsorPage() {
           )}
         </section>
         {Object.values(sponsorData).map(({ name, sponsors }) => (
+          <SponsorTier key={name} name={name} sponsors={sponsors} />
+        ))}
+        {Object.values(supportOrg).map(({ name, sponsors }) => (
           <SponsorTier key={name} name={name} sponsors={sponsors} />
         ))}
       </main>

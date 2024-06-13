@@ -11,6 +11,13 @@ export const { name } = conference;
 
 export const sponsors = conference.sponsors || {};
 
+export const supportOrg = {
+  'Supporting Organization': {
+    name: 'Supporting Organization',
+    sponsors: conference.supporting_organizations || {},
+  },
+};
+
 export const { events } = eventData;
 
 export const { days: timetable } = timetableData;
