@@ -715,7 +715,7 @@
         "title": "Building your own Jarvis? Exploring LLM integration options in Home Assistant"
       },
       "speakers": [
-        "Women Techmakers Hong Kong:Hong Kong:Women Techmakers Hong Kong"
+        "Amanda Lam:Hong Kong:Ambassador, Women Techmakers Hong Kong"
       ]
     },
     {
@@ -1127,14 +1127,14 @@
       }
     },
     {
-      "id": "Women Techmakers Hong Kong:Hong Kong:Women Techmakers Hong Kong",
-      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/WTMHK%20250.jpg",
+      "id": "Amanda Lam:Hong Kong:Ambassador, Women Techmakers Hong Kong",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Amanda%20Lam%20250.jpeg",
       "zh": {
-        "name": "Women Techmakers Hong Kong",
+        "name": "Amanda Lam",
         "bio": ""
       },
       "en": {
-        "name": "Women Techmakers Hong Kong",
+        "name": "Amanda Lam",
         "bio": ""
       }
     },
