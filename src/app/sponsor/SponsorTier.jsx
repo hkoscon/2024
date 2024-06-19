@@ -32,7 +32,7 @@ export default function SponsorTier({ name, sponsors }) {
           <div className="card">
             <div className="card-content">
               <div className="content">
-                <div className="columns sponsorInfo supportOrgInfo">
+                <div className="columns supportOrgInfo">
                   {sponsors.map(({
                     title, logo,
                   }) => (
