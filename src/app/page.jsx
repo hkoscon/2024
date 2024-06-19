@@ -13,7 +13,7 @@ export default function Home() {
           <div className="column is-align-self-center">
             <h1 className="title has-text-brand-color-blue">HKOSCon 2024</h1>
             <h2 className="subtitle">5 - 6 Jul, 2024</h2>
-            <h2 className="subtitle">The University of Hong Kong (Tentative)</h2>
+            <h2 className="subtitle">The University of Hong Kong</h2>
           </div>
         </div>
       </div>
