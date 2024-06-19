@@ -1,25 +1,29 @@
 @use "bulma/sass/utilities/mixins";
 
 .homePage {
-  height: 100vh;
   min-height: 770px;
-  background-position: center;
-  background-size: cover;
+  section {
+    height: 100vh;
+  }
+  &__keyvisual {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 
-  background-image: url(../assets/images/cover-sm.webp);
-  @include mixins.tablet {
-    background-image: url(../assets/images/cover-md.webp);
+    background-image: url(../assets/images/cover-sm.webp);
+    @include mixins.tablet {
+      background-image: url(../assets/images/cover-md.webp);
+    }
+    @include mixins.desktop {
+      background-image: url(../assets/images/cover-lg.webp);
+    }
+    @include mixins.widescreen {
+      background-image: url(../assets/images/cover-xl.webp);
+    }
+    @include mixins.fullhd {
+      background-image: url(../assets/images/cover.webp);
+    }
   }
-  @include mixins.desktop {
-    background-image: url(../assets/images/cover-lg.webp);
-  }
-  @include mixins.widescreen {
-    background-image: url(../assets/images/cover-xl.webp);
-  }
-  @include mixins.fullhd {
-    background-image: url(../assets/images/cover.webp);
-  }
-
   &__cover {
     background-color: rgba(255, 255, 255, 0.9);
     height: 100%;
@@ -39,4 +43,33 @@
       height: 265px;
     }
   }
+
+  &__transportation {
+    background-image: url(../assets/images/hku-mingwah-location.webp);
+    background-size: contain;
+    background-attachment: fixed;
+
+    &__box {
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+      margin: 0 auto;
+      gap: 1em;
+
+      &__actions {
+        text-align: right;
+      }
+    }
+  }
+  &__mask {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    @include mixins.tablet {
+      align-items: center;
+    }
+  }
+
 }

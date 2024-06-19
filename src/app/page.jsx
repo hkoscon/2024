@@ -1,22 +1,53 @@
 import Image from 'next/image';
 import logo from '../components/navbar/brand.png';
+import transportationMap from '../assets/images/hku-mingwah-location.webp';
 import './page.scss';
 
 export default function Home() {
   return (
     <main className="homePage">
-      <div className="homePage__cover">
-        <div className="container columns">
-          <div className="homePage__media column is-3-desktop is-flex">
-            <Image src={logo} alt="HKOSCon logo" className="homePage__logo m-auto" />
-          </div>
-          <div className="column is-align-self-center">
-            <h1 className="title has-text-brand-color-blue">HKOSCon 2024</h1>
-            <h2 className="subtitle">5 - 6 Jul, 2024</h2>
-            <h2 className="subtitle">The University of Hong Kong</h2>
+      <section className="homePage__keyvisual">
+        <div className="homePage__cover">
+          <div className="container columns">
+            <div className="homePage__media column is-3-desktop is-flex">
+              <Image src={logo} alt="HKOSCon logo" className="homePage__logo m-auto" />
+            </div>
+            <div className="column is-align-self-center">
+              <h1 className="title has-text-brand-color-blue">HKOSCon 2024</h1>
+              <h2 className="subtitle">
+                5 - 6 Jul, 2024
+                <br />
+                The University of Hong Kong
+              </h2>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section className="homePage__transportation">
+        <div className="homePage__mask">
+          <div className="container columns">
+            <div className="column is-align-self-center">
+              <div className="homePage__transportation__box">
+                <h2 className="title">Transportation</h2>
+                <p>
+                  The University of Hong Kong is easily accessible by public transportation.
+                  The closest MTR station is HKU station on the Island Line.
+                </p>
+                <div className="homePage__transportation__box__actions">
+                  <a
+                    className="button is-link"
+                    rel="noreferrer"
+                    target="_blank"
+                    href={transportationMap.src}
+                  >
+                    Map
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
