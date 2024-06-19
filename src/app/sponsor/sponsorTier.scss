@@ -4,5 +4,6 @@
     border-style: solid;
     border-color: rgba(0,0,0,.1);
     border-width: 0 0 1px;
+    margin: 0 0 .5em; // To prevent the box and title line from touching each other
   }
 }
