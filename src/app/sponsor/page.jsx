@@ -2,6 +2,8 @@
 import { sponsors as sponsorData, supportOrg } from '../data';
 import SponsorTier from './SponsorTier';
 
+import './page.scss';
+
 export default function SponsorPage() {
   return (
     <>
