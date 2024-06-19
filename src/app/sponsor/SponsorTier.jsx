@@ -39,7 +39,7 @@ export default function SponsorTier({ name, sponsors }) {
                     <div className="column is-3" key={title}>
                       <div className="card-image supportOrgAspect">
                         <figure className="image sponsorInfo__logo">
-                          <img src={logo} alt={title} />
+                          <img src={logo} alt={title} style={{ borderRadius: 0 }} />
                         </figure>
                       </div>
                     </div>
