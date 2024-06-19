@@ -15,12 +15,13 @@ export default function SponsorPage() {
       <main className="container">
         <section className="section">
           <p>
-            To cover expenses of conference,
-            we are calling for sponsorships of HKOSCon and look for potential sponsors.
+            Hong Kong Open Source Conference is running on its own budget,
+            and we cannot make it without the support from our sponsors
+            and supporting organizations.
+            {Object.values(sponsorData).length > 0 && (
+            <> Cordially, we would like to thank the following sponsors for their support.</>
+            )}
           </p>
-          {Object.values(sponsorData).length > 0 && (
-            <p>We would like to thank the following sponsors for their support.</p>
-          )}
         </section>
         {Object.values(sponsorData).map(({ name, sponsors }) => (
           <SponsorTier key={name} name={name} sponsors={sponsors} />
