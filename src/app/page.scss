@@ -2,49 +2,82 @@
 
 .homePage {
   min-height: 770px;
-  section {
-    height: 100vh;
-  }
   &__keyvisual {
-    background-position: center;
+    height: calc(100vh - 52px);
+    background-position: center bottom;
     background-size: cover;
     background-attachment: fixed;
-
-    background-image: url(../assets/images/cover-sm.webp);
-    @include mixins.tablet {
-      background-image: url(../assets/images/cover-md.webp);
-    }
-    @include mixins.desktop {
-      background-image: url(../assets/images/cover-lg.webp);
-    }
-    @include mixins.widescreen {
-      background-image: url(../assets/images/cover-xl.webp);
-    }
-    @include mixins.fullhd {
-      background-image: url(../assets/images/cover.webp);
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/kv-BG-4096-crop-1900.webp);
+    &__foreground {
+      height: 100%;
+      background-position: center bottom, center bottom;
+      background-size: 40% auto, contain;
+      background-repeat: no-repeat, no-repeat;
+        background-color: rgba(255, 255, 255, 0.5);
+      background-image:
+        url(../assets/images/kv-cats-900.webp),
+        url(../assets/images/kv-frontFloor-1024-croped.webp);
     }
   }
   &__cover {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     height: 100%;
-    display: flex;
-    flex-grow: 1;
-    align-items: flex-start;
+  }
+  &__main {
+    max-width: 500px;
+    width: calc(100% - 2rem);
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "logo" "content";
+
     @include mixins.tablet {
-      align-items: center;
+      max-width: 900px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: "logo content";
+      gap: 2rem;
     }
+  }
+  &__logo-wrapper {
+    grid-area: logo;
   }
   &__logo {
-    background-color: white;
-    padding: 1rem;
+    display: block;
+    width: 100%;
+    height: auto;
   }
-  @include mixins.desktop {
-    &__media {
-      height: 265px;
+  &__key-content {
+    grid-area: content;
+    text-align: center;
+    color: #000;
+    font-size: 1.4vh;
+
+    @include mixins.tablet {
+      text-align: left;
     }
+    @include mixins.desktop {
+      font-size: 1.2rem;
+    }
+    @include mixins.widescreen {
+      font-size: 1.4rem;
+    }
+    @include mixins.fullhd {
+      font-size: 1.6rem;
+    }
+  }
+  &__date {
+    font-weight: 600;
+    font-size: 2.4em;
+  }
+  &__venue {
+    font-size: 1.6em;
   }
 
   &__transportation {
+    height: 100vh;
     background-image: url(../assets/images/hku-mingwah-location.webp);
     background-size: contain;
     background-attachment: fixed;

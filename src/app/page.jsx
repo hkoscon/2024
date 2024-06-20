@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '../components/navbar/brand.png';
+import logo from '../assets/images/kv-logo-600.webp';
 import transportationMap from '../assets/images/hku-mingwah-location.webp';
 import './page.scss';
 
@@ -7,18 +7,20 @@ export default function Home() {
   return (
     <main className="homePage">
       <section className="homePage__keyvisual">
-        <div className="homePage__cover">
-          <div className="container columns">
-            <div className="homePage__media column is-3-desktop is-flex">
-              <Image src={logo} alt="HKOSCon logo" className="homePage__logo m-auto" />
-            </div>
-            <div className="column is-align-self-center">
-              <h1 className="title has-text-brand-color-blue">HKOSCon 2024</h1>
-              <h2 className="subtitle">
-                5 - 6 Jul, 2024
-                <br />
-                The University of Hong Kong
-              </h2>
+        <div className="homePage__keyvisual__foreground">
+          <div className="homePage__cover">
+            <div className="container homePage__main">
+              <div className="homePage__logo-wrapper">
+                <Image src={logo} alt="HKOSCon logo" className="homePage__logo m-auto" />
+              </div>
+              <div className="homePage__key-content is-align-self-center">
+                <div className="homePage__date">5 - 6 Jul, 2024</div>
+                <div className="homePage__venue">
+                  Meng Wah Complex,
+                  <br />
+                  The University of Hong Kong
+                </div>
+              </div>
             </div>
           </div>
         </div>
