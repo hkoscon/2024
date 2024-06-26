@@ -1,9 +1,14 @@
 .supportOrgInfo {
   flex-wrap: wrap;
   align-items: center;
+
+  img {
+    max-height: 144px;
+    border-radius: 0 !important;
+  }
 }
 .supportOrgAspect {
-  aspect-ratio: 1;
+  aspect-ratio: 1.5;
   vertical-align: middle;
   display: table-cell;
 }

@@ -15,7 +15,7 @@ export default function SponsorInfo({
                 <div className="column is-3">
                   <div className="card-image">
                     <figure className="image sponsorInfo__logo">
-                      <img src={logo} alt={title} style={{ borderRadius: 0 }} />
+                      <img src={logo} alt={title} />
                     </figure>
                   </div>
                 </div>

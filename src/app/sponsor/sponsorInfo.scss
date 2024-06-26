@@ -3,6 +3,10 @@
   margin-top: 1rem;
   &__logo {
     max-width: 300px;
+
+    img {
+      border-radius: 0 !important;
+    }
   }
 
   & .card-footer {
