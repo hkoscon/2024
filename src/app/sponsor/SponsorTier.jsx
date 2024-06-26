@@ -38,7 +38,7 @@ export default function SponsorTier({ name, sponsors }) {
                   }) => (
                     <div className="column is-3" key={title}>
                       <div className="card-image supportOrgAspect is-flex is-justify-content-center is-align-items-center">
-                        <figure className="image sponsorInfo__logo is-centered">
+                        <figure className="image supportOrgInfo__logo is-centered">
                           <img className="bulma-center-mixin" src={logo} alt={title} />
                         </figure>
                       </div>
