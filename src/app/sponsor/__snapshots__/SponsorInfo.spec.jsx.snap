@@ -32,7 +32,6 @@ exports[`SponsorInfo match snapshot 1`] = `
                     <img
                       alt="Testing"
                       src="sponsor.png"
-                      style="border-radius: 0;"
                     />
                   </figure>
                 </div>
