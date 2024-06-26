@@ -37,10 +37,15 @@ export default function Navbar() {
     setNavOpen(!isNavOpen);
   }, [isNavOpen]);
 
-  const TicketButton = dynamic(
-    () => import('./TicketButton'),
-    { ssr: false },
-  );
+  const LoadingButton = useCallback(() => (
+    // eslint-disable-next-line
+    <a className="button is-fullwidth is-warning has-background-brand-color-yellow has-text-brand-color-blue" disabled>Loading...</a>
+  ), []);
+
+  const TicketButton = dynamic(() => import('./TicketButton'), {
+    ssr: false,
+    loading: LoadingButton,
+  });
 
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">

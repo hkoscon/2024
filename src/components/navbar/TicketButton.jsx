@@ -37,7 +37,7 @@ export default function TicketButton() {
   const ticketUrl = getTicketUrl();
   return (
     <a
-      className="button has-background-brand-color-yellow has-text-brand-color-blue"
+      className="button is-fullwidth has-background-brand-color-yellow has-text-brand-color-blue"
       href={ticketUrl}
       target="_blank"
       rel="noreferrer noopener"
