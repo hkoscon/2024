@@ -50,18 +50,15 @@
       "room": "MWT2",
       "start": "2024-07-05T10:00:00+08:00",
       "end": "2024-07-05T10:15:00+08:00",
-      "url": "https://hkoscon.org/2024/topic/open-data-using-web30",
+      "url": "https://hkoscon.org/2024/topic/opening-remarks",
       "zh": {
-        "title": "Open Data using Web3.0"
+        "title": "Opening Remarks"
       },
       "en": {
-        "title": "Open Data using Web3.0"
+        "title": "Opening Remarks"
       },
       "speakers": [
-        "Mr. Emil Chan:Hong Kong:Smart City Consortium",
-        "Mr. Alex Hung:Hong Kong:Manulife Investment Management",
-        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   ",
-        "Mr. Ben Wong:Hong Kong:Elite Paradise Limited"
+        "Prof. John Bacon-Shone:Hong Kong:The University of Hong Kong"
       ]
     },
     {
@@ -85,7 +82,7 @@
       "room": "MWT2",
       "start": "2024-07-05T10:15:00+08:00",
       "end": "2024-07-05T10:45:00+08:00",
-      "url": "https://hkoscon.org/2024/topic/open-data-using-web30-0",
+      "url": "https://hkoscon.org/2024/topic/open-data-using-web30",
       "zh": {
         "title": "Open Data using Web3.0"
       },
@@ -95,8 +92,7 @@
       "speakers": [
         "Mr. Emil Chan:Hong Kong:Smart City Consortium",
         "Mr. Alex Hung:Hong Kong:Manulife Investment Management",
-        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   ",
-        "Mr. Ben Wong:Hong Kong:Elite Paradise Limited"
+        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   "
       ]
     },
     {
@@ -120,7 +116,7 @@
       "room": "MWT2",
       "start": "2024-07-05T10:45:00+08:00",
       "end": "2024-07-05T11:00:00+08:00",
-      "url": "https://hkoscon.org/2024/topic/open-data-using-web30-1",
+      "url": "https://hkoscon.org/2024/topic/open-data-using-web30-0",
       "zh": {
         "title": "Open Data using Web3.0"
       },
@@ -155,7 +151,7 @@
       "id": 474,
       "type": "speech",
       "room": "MWT2",
-      "start": "2024-07-05T11:00:00+08:00",
+      "start": "2024-07-05T11:15:00+08:00",
       "end": "2024-07-05T11:30:00+08:00",
       "url": "https://hkoscon.org/2024/topic/reuse-mapping-data-startups",
       "zh": {
@@ -839,6 +835,18 @@
   ],
   "speakers": [
     {
+      "id": "Prof. John Bacon-Shone:Hong Kong:The University of Hong Kong",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2023-05/Prof.%20John%20Bacon-Shone_square.jpg",
+      "zh": {
+        "name": "Prof. John Bacon-Shone",
+        "bio": ""
+      },
+      "en": {
+        "name": "Prof. John Bacon-Shone",
+        "bio": ""
+      }
+    },
+    {
       "id": "Mr. Emil Chan:Hong Kong:Smart City Consortium",
       "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
       "zh": {
@@ -955,18 +963,6 @@
       },
       "en": {
         "name": "Tommy Tse",
-        "bio": ""
-      }
-    },
-    {
-      "id": "Prof. John Bacon-Shone:Hong Kong:The University of Hong Kong",
-      "avatar": "https://data.hkoscon.org/sites/default/files/2023-05/Prof.%20John%20Bacon-Shone_square.jpg",
-      "zh": {
-        "name": "Prof. John Bacon-Shone",
-        "bio": ""
-      },
-      "en": {
-        "name": "Prof. John Bacon-Shone",
         "bio": ""
       }
     },
