@@ -4,11 +4,12 @@
 
   img {
     max-height: 144px;
+    max-width: 256px;
     border-radius: 0 !important;
   }
 }
 .supportOrgAspect {
-  aspect-ratio: 1.5;
+  aspect-ratio: 1.89;
   vertical-align: middle;
   display: table-cell;
 }
