@@ -28,8 +28,37 @@ export default function Footer() {
             />
           </a>
         </span>
-        &nbsp;
+        .&nbsp;
         <span>Logos and trademarks belong to their respective owners.</span>
+      </div>
+      <div className="organisingCommittee">
+        <span>This event is organised and brought to you by the following organisations.</span>
+        <div className="organisingCommitteeCarousel">
+          <div className="organisingCommitteeCarousel__item">
+            <img
+              src="https://hkcota.org/wp-content/uploads/2024/06/HKCOTAofficiallogo_indiegogo-squared.png"
+              alt="Hong Kong Creative Open Technology Association"
+            />
+          </div>
+          <div className="organisingCommitteeCarousel__item">
+            <img
+              src="https://hkcota.org/wp-content/uploads/2015/04/OS_logoV-icon.png"
+              alt="Open Source Hong Kong"
+            />
+          </div>
+          <div className="organisingCommitteeCarousel__item">
+            <img
+              src="https://hkcota.org/wp-content/uploads/2015/04/hklug.png"
+              alt="Hong Kong Linux User Group"
+            />
+          </div>
+          <div className="organisingCommitteeCarousel__item">
+            <img
+              src="https://events.cota.hk/sites/default/files/styles/width_550/public/2024-06/hku_csa_logo.png?itok=Pek-MIn4"
+              alt="Computer Science Association, Engineering Society, HKU"
+            />
+          </div>
+        </div>
       </div>
     </footer>
   );
