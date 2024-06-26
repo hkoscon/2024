@@ -33,9 +33,20 @@ const archivedYears = [
 
 export default function Navbar() {
   const [isNavOpen, setNavOpen] = useState(false);
+  const [isAboutOpen, setAboutOpen] = useState(false);
+  const [isArchiveOpen, setArchiveOpen] = useState(false);
+
   const toggleNavOpen = useCallback(() => {
     setNavOpen(!isNavOpen);
   }, [isNavOpen]);
+
+  const toggleAboutOpen = useCallback(() => {
+    setAboutOpen(!isAboutOpen);
+  }, [isAboutOpen]);
+
+  const toggleArchiveOpen = useCallback(() => {
+    setArchiveOpen(!isArchiveOpen);
+  }, [isArchiveOpen]);
 
   const LoadingButton = useCallback(() => (
     // eslint-disable-next-line
@@ -98,11 +109,12 @@ export default function Navbar() {
           )}
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <button type="button" className="navbar-link">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a href="#" role="button" type="button" className="navbar-link" onClick={toggleAboutOpen}>
               About
-            </button>
+            </a>
 
-            <div className="navbar-dropdown">
+            <div className={`navbar-dropdown ${isAboutOpen ? '' : ' is-invisible is-hidden'}`}>
               <a href="https://info.hkoscon.org/introduction/" className="navbar-item" target="_blank" rel="noreferrer">About Us</a>
               <a href="https://info.hkoscon.org/code-of-conduct/" className="navbar-item" target="_blank" rel="noreferrer">Code of Conduct</a>
               <a href="https://info.hkoscon.org/organizers/" className="navbar-item" target="_blank" rel="noreferrer">Organizers</a>
@@ -116,11 +128,12 @@ export default function Navbar() {
           )}
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <button type="button" className="navbar-link">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a href="#" type="button" className="navbar-link" onClick={toggleArchiveOpen}>
               Archive
-            </button>
+            </a>
 
-            <div className="navbar-dropdown">
+            <div className={`navbar-dropdown ${isArchiveOpen ? '' : ' is-invisible is-hidden'}`}>
               {archivedYears.map((year) => (
                 <a key={year} href={`/${year}`} className="navbar-item" rel="noreferrer" target="_blank">
                   {`HKOSCon ${year}`}
