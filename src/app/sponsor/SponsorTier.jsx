@@ -32,16 +32,14 @@ export default function SponsorTier({ name, sponsors }) {
           <div className="card">
             <div className="card-content">
               <div className="content">
-                <div className="columns supportOrgInfo">
+                <div className="columns supportOrgInfo is-vcentered">
                   {sponsors.map(({
                     title, logo,
                   }) => (
-                    <div className="column is-3" key={title}>
-                      <div className="card-image supportOrgAspect is-flex is-justify-content-center is-align-items-center">
-                        <figure className="image supportOrgInfo__logo is-centered">
-                          <img className="bulma-center-mixin" src={logo} alt={title} />
-                        </figure>
-                      </div>
+                    <div className="column is-3 card-image supportOrgAspect" key={title}>
+                      <figure className="image supportOrgInfo__logo">
+                        <img src={logo} alt={title} />
+                      </figure>
                     </div>
                   ))}
                 </div>

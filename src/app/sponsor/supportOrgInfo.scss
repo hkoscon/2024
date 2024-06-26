@@ -2,14 +2,21 @@
   flex-wrap: wrap;
   align-items: center;
 
+  
+  & > div {
+    min-height: 144px;
+  }
+
   img {
     max-height: 144px;
-    max-width: 256px;
+    max-width: 100%;
+    width: auto;
     border-radius: 0 !important;
   }
 }
 .supportOrgAspect {
-  aspect-ratio: 1.89;
-  vertical-align: middle;
-  display: table-cell;
+  aspect-ratio: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
