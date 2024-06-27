@@ -77,11 +77,11 @@
       "speakers": []
     },
     {
-      "id": 478,
+      "id": 479,
       "type": "speech",
       "room": "MWT2",
       "start": "2024-07-05T10:15:00+08:00",
-      "end": "2024-07-05T10:45:00+08:00",
+      "end": "2024-07-05T11:15:00+08:00",
       "url": "https://hkoscon.org/2024/topic/open-data-using-web30",
       "zh": {
         "title": "Open Data using Web3.0"
@@ -92,7 +92,8 @@
       "speakers": [
         "Mr. Emil Chan:Hong Kong:Smart City Consortium",
         "Mr. Alex Hung:Hong Kong:Manulife Investment Management",
-        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   "
+        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   ",
+        "Ms. Lucy Kwan:Hong Kong:Department of Statistics & Actuarial Science, The University of Hong Kong"
       ]
     },
     {
@@ -109,26 +110,6 @@
         "title": "Break"
       },
       "speakers": []
-    },
-    {
-      "id": 479,
-      "type": "speech",
-      "room": "MWT2",
-      "start": "2024-07-05T10:45:00+08:00",
-      "end": "2024-07-05T11:00:00+08:00",
-      "url": "https://hkoscon.org/2024/topic/open-data-using-web30-0",
-      "zh": {
-        "title": "Open Data using Web3.0"
-      },
-      "en": {
-        "title": "Open Data using Web3.0"
-      },
-      "speakers": [
-        "Mr. Emil Chan:Hong Kong:Smart City Consortium",
-        "Mr. Alex Hung:Hong Kong:Manulife Investment Management",
-        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   ",
-        "Mr. Ben Wong:Hong Kong:Elite Paradise Limited"
-      ]
     },
     {
       "id": 450,
@@ -152,7 +133,7 @@
       "type": "speech",
       "room": "MWT2",
       "start": "2024-07-05T11:15:00+08:00",
-      "end": "2024-07-05T11:30:00+08:00",
+      "end": "2024-07-05T12:15:00+08:00",
       "url": "https://hkoscon.org/2024/topic/reuse-mapping-data-startups",
       "zh": {
         "title": "Reuse of Mapping Data by Startups"
@@ -162,7 +143,8 @@
       },
       "speakers": [
         "Mr. Gene Soo:Hong Kong:MTR",
-        "Representative from Mapxus:Hong Kong:Mapxus",
+        "Prof. Alain Chiaradia:Hong Kong: The University of Hong Kong ",
+        "Mr. Leslie Lau:Hong Kong:Mapxus",
         "Wai Chun, Law:Hong Kong:hkbus.app"
       ]
     },
@@ -182,25 +164,6 @@
       "speakers": []
     },
     {
-      "id": 480,
-      "type": "speech",
-      "room": "MWT2",
-      "start": "2024-07-05T11:30:00+08:00",
-      "end": "2024-07-05T11:45:00+08:00",
-      "url": "https://hkoscon.org/2024/topic/reuse-mapping-data-startups-0",
-      "zh": {
-        "title": "Reuse of Mapping Data by Startups"
-      },
-      "en": {
-        "title": "Reuse of Mapping Data by Startups"
-      },
-      "speakers": [
-        "Prof. Alain Chiaradia:Hong Kong: The University of Hong Kong ",
-        "Representative from Mapxus:Hong Kong:Mapxus",
-        "Wai Chun, Law:Hong Kong:hkbus.app"
-      ]
-    },
-    {
       "id": 457,
       "type": "speech",
       "room": "MWT1",
@@ -215,25 +178,6 @@
       },
       "speakers": [
         "Tommy Tse:Hong Kong:Google"
-      ]
-    },
-    {
-      "id": 481,
-      "type": "speech",
-      "room": "MWT2",
-      "start": "2024-07-05T11:45:00+08:00",
-      "end": "2024-07-05T12:15:00+08:00",
-      "url": "https://hkoscon.org/2024/topic/reuse-mapping-data-startups-1",
-      "zh": {
-        "title": "Reuse of Mapping Data by Startups"
-      },
-      "en": {
-        "title": "Reuse of Mapping Data by Startups"
-      },
-      "speakers": [
-        "Prof. Alain Chiaradia:Hong Kong: The University of Hong Kong ",
-        "Representative from Mapxus:Hong Kong:Mapxus",
-        "Wai Chun, Law:Hong Kong:hkbus.app"
       ]
     },
     {
@@ -252,20 +196,37 @@
       "speakers": []
     },
     {
-      "id": 472,
+      "id": 513,
       "type": "speech",
       "room": "MWT2",
       "start": "2024-07-05T12:15:00+08:00",
-      "end": "2024-07-05T12:30:00+08:00",
-      "url": "https://hkoscon.org/2024/topic/spatial-patterns-deprivation-hong-kong-linkage-census-data-and-mapping-data",
+      "end": "2024-07-05T12:25:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/how-data-shape-social-policy-pre-recorded-video",
       "zh": {
-        "title": "Spatial Patterns of Deprivation in Hong Kong: Linkage of Census data and Mapping data"
+        "title": "How Data Shape Social Policy (pre-recorded video)"
       },
       "en": {
-        "title": "Spatial Patterns of Deprivation in Hong Kong: Linkage of Census data and Mapping data"
+        "title": "How Data Shape Social Policy (pre-recorded video)"
       },
       "speakers": [
-        "Prof. John Bacon-Shone:Hong Kong:The University of Hong Kong"
+        "Dr. Yvette To:Hong Kong:The Hong Kong Polytechnic University"
+      ]
+    },
+    {
+      "id": 483,
+      "type": "event",
+      "room": "MWT2",
+      "start": "2024-07-05T12:25:00+08:00",
+      "end": "2024-07-05T12:35:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/connecting-dots-extend-value-official-statistics-pre-recorded-video",
+      "zh": {
+        "title": "Connecting the Dots: Extend the Value of Official Statistics (pre-recorded video)"
+      },
+      "en": {
+        "title": "Connecting the Dots: Extend the Value of Official Statistics (pre-recorded video)"
+      },
+      "speakers": [
+        "Ms. Lucy Kwan:Hong Kong:Department of Statistics & Actuarial Science, The University of Hong Kong"
       ]
     },
     {
@@ -286,12 +247,12 @@
       ]
     },
     {
-      "id": 483,
-      "type": "event",
+      "id": 472,
+      "type": "speech",
       "room": "MWT2",
-      "start": "2024-07-05T12:30:00+08:00",
+      "start": "2024-07-05T12:35:00+08:00",
       "end": "2024-07-05T12:45:00+08:00",
-      "url": "https://hkoscon.org/2024/topic/spatial-patterns-deprivation-hong-kong-linkage-census-data-and-mapping-data-0",
+      "url": "https://hkoscon.org/2024/topic/spatial-patterns-deprivation-hong-kong-linkage-census-data-and-mapping-data",
       "zh": {
         "title": "Spatial Patterns of Deprivation in Hong Kong: Linkage of Census data and Mapping data"
       },
@@ -317,6 +278,23 @@
       },
       "speakers": [
         "Dr. Chung Ng:Hong Kong:HKT Limited"
+      ]
+    },
+    {
+      "id": 514,
+      "type": "speech",
+      "room": "MWT2",
+      "start": "2024-07-05T12:45:00+08:00",
+      "end": "2024-07-05T13:00:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/closing-remarks",
+      "zh": {
+        "title": "Closing Remarks"
+      },
+      "en": {
+        "title": "Closing Remarks"
+      },
+      "speakers": [
+        "Prof. John Bacon-Shone:Hong Kong:The University of Hong Kong"
       ]
     },
     {
@@ -883,14 +861,14 @@
       }
     },
     {
-      "id": "Mr. Ben Wong:Hong Kong:Elite Paradise Limited",
+      "id": "Ms. Lucy Kwan:Hong Kong:Department of Statistics & Actuarial Science, The University of Hong Kong",
       "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
       "zh": {
-        "name": "Mr. Ben Wong",
+        "name": "Ms. Lucy Kwan",
         "bio": ""
       },
       "en": {
-        "name": "Mr. Ben Wong",
+        "name": "Ms. Lucy Kwan",
         "bio": ""
       }
     },
@@ -919,14 +897,26 @@
       }
     },
     {
-      "id": "Representative from Mapxus:Hong Kong:Mapxus",
+      "id": "Prof. Alain Chiaradia:Hong Kong: The University of Hong Kong ",
       "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
       "zh": {
-        "name": "Representative from Mapxus",
+        "name": "Prof. Alain Chiaradia",
         "bio": ""
       },
       "en": {
-        "name": "Representative from Mapxus",
+        "name": "Prof. Alain Chiaradia",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Mr. Leslie Lau:Hong Kong:Mapxus",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Mr. Leslie Lau",
+        "bio": ""
+      },
+      "en": {
+        "name": "Mr. Leslie Lau",
         "bio": ""
       }
     },
@@ -943,18 +933,6 @@
       }
     },
     {
-      "id": "Prof. Alain Chiaradia:Hong Kong: The University of Hong Kong ",
-      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
-      "zh": {
-        "name": "Prof. Alain Chiaradia",
-        "bio": ""
-      },
-      "en": {
-        "name": "Prof. Alain Chiaradia",
-        "bio": ""
-      }
-    },
-    {
       "id": "Tommy Tse:Hong Kong:Google",
       "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Tommy%20Tse%20250.jpg",
       "zh": {
@@ -963,6 +941,18 @@
       },
       "en": {
         "name": "Tommy Tse",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Dr. Yvette To:Hong Kong:The Hong Kong Polytechnic University",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Dr. Yvette To",
+        "bio": ""
+      },
+      "en": {
+        "name": "Dr. Yvette To",
         "bio": ""
       }
     },
