@@ -92,8 +92,7 @@
       "speakers": [
         "Mr. Emil Chan:Hong Kong:Smart City Consortium",
         "Mr. Alex Hung:Hong Kong:Manulife Investment Management",
-        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   ",
-        "Ms. Lucy Kwan:Hong Kong:Department of Statistics & Actuarial Science, The University of Hong Kong"
+        "Mr. Joshua Chu:Hong Kong:China Information Technology Development Limited   "
       ]
     },
     {
@@ -861,18 +860,6 @@
       }
     },
     {
-      "id": "Ms. Lucy Kwan:Hong Kong:Department of Statistics & Actuarial Science, The University of Hong Kong",
-      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
-      "zh": {
-        "name": "Ms. Lucy Kwan",
-        "bio": ""
-      },
-      "en": {
-        "name": "Ms. Lucy Kwan",
-        "bio": ""
-      }
-    },
-    {
       "id": "Ivan Tu:Taiwan:Oracle MySQL Business Unit",
       "avatar": "https://data.hkoscon.org/sites/default/files/2024-05/Ivan%20Tu%20250.jpg",
       "zh": {
@@ -953,6 +940,18 @@
       },
       "en": {
         "name": "Dr. Yvette To",
+        "bio": ""
+      }
+    },
+    {
+      "id": "Ms. Lucy Kwan:Hong Kong:Department of Statistics & Actuarial Science, The University of Hong Kong",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Ms. Lucy Kwan",
+        "bio": ""
+      },
+      "en": {
+        "name": "Ms. Lucy Kwan",
         "bio": ""
       }
     },
