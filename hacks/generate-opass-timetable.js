@@ -52,7 +52,7 @@ function findAllSpeakers(days) {
     timeslots.forEach(({ events }) => {
       events.forEach(({ speakers }) => {
         speakers.forEach((speaker) => {
-          speakerMap.set(`${speaker.name}:${speaker.country}:${speaker.community}`, speaker);
+          speakerMap.set(speaker.uuid, speaker);
         });
       });
     });
@@ -82,7 +82,8 @@ function findAllSessions(days) {
           url: `https://hkoscon.org/2024/topic/${link}`,
           zh: { title: display },
           en: { title: display },
-          speakers: speakers.map((speaker) => `${speaker.name}:${speaker.country}:${speaker.community}`),
+          speakers: speakers.map((speaker) => speaker.uuid),
+          tags: [topic ? 'speech' : 'event'],
         };
       }))),
     );
@@ -106,7 +107,18 @@ function findAllSessions(days) {
         en: { name: 'Event' },
       },
     ],
-    tags: [],
+    tags: [
+      {
+        id: 'speech',
+        zh: { name: 'Speech' },
+        en: { name: 'Speech' },
+      },
+      {
+        id: 'event',
+        zh: { name: 'Event' },
+        en: { name: 'Event' },
+      },
+    ],
   };
   await writeData(timetable);
 })();
