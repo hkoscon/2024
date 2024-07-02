@@ -73,14 +73,16 @@
       "room": "MWT1",
       "start": "2024-07-05T10:15:00+08:00",
       "end": "2024-07-05T10:45:00+08:00",
-      "url": "https://hkoscon.org/2024/topic/keynote-session",
+      "url": "https://hkoscon.org/2024/topic/open-source-open-possibilities-exploring-awss-innovative-open-source-projects",
       "zh": {
-        "title": "Keynote Session"
+        "title": "Open Source, Open Possibilities: Exploring AWS's Innovative Open Source Projects"
       },
       "en": {
-        "title": "Keynote Session"
+        "title": "Open Source, Open Possibilities: Exploring AWS's Innovative Open Source Projects"
       },
-      "speakers": [],
+      "speakers": [
+        "feee68c5-62d9-43ec-99f3-e252fa8e7e40"
+      ],
       "tags": [
         "speech"
       ]
@@ -515,6 +517,26 @@
       ]
     },
     {
+      "id": 516,
+      "type": "speech",
+      "room": "MWT1",
+      "start": "2024-07-05T17:45:00+08:00",
+      "end": "2024-07-05T18:00:00+08:00",
+      "url": "https://hkoscon.org/2024/topic/open-source-large-language-models-optimization",
+      "zh": {
+        "title": "Open-source Large Language Models Optimization"
+      },
+      "en": {
+        "title": "Open-source Large Language Models Optimization"
+      },
+      "speakers": [
+        "96347022-f9ad-4787-86ad-ce08b737f98f"
+      ],
+      "tags": [
+        "speech"
+      ]
+    },
+    {
       "id": 491,
       "type": "event",
       "room": "",
@@ -637,14 +659,16 @@
       "room": "MWT6",
       "start": "2024-07-06T11:00:00+08:00",
       "end": "2024-07-06T13:00:00+08:00",
-      "url": "https://hkoscon.org/2024/topic/aws-codelab",
+      "url": "https://hkoscon.org/2024/topic/building-saas-applications-amazon-eks-using-gitops",
       "zh": {
-        "title": "AWS Codelab"
+        "title": "Building SaaS applications on Amazon EKS using GitOps"
       },
       "en": {
-        "title": "AWS Codelab"
+        "title": "Building SaaS applications on Amazon EKS using GitOps"
       },
-      "speakers": [],
+      "speakers": [
+        "9eef6bd5-a06d-4f08-870a-fb425623dc91"
+      ],
       "tags": [
         "speech"
       ]
@@ -968,6 +992,18 @@
       }
     },
     {
+      "id": "feee68c5-62d9-43ec-99f3-e252fa8e7e40",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-07/Mariana%20Chow.jpg",
+      "zh": {
+        "name": "Mariana Chow",
+        "bio": ""
+      },
+      "en": {
+        "name": "Mariana Chow",
+        "bio": ""
+      }
+    },
+    {
       "id": "1539e82f-f67b-4370-a179-5a2282ae05f2",
       "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
       "zh": {
@@ -1172,6 +1208,18 @@
       }
     },
     {
+      "id": "96347022-f9ad-4787-86ad-ce08b737f98f",
+      "avatar": "https://data.hkoscon.org/sites/default/files/2024-07/Haowen%20Huang.jpg",
+      "zh": {
+        "name": "Haowen Huang",
+        "bio": ""
+      },
+      "en": {
+        "name": "Haowen Huang",
+        "bio": ""
+      }
+    },
+    {
       "id": "c59e0f8a-26ce-4b27-8466-2f475f8ec3f5",
       "avatar": "https://data.hkoscon.org/sites/default/files/2024-06/Jesus%20Pelay%20250.jpg",
       "zh": {
@@ -1228,6 +1276,18 @@
       },
       "en": {
         "name": "Shengyou Fan",
+        "bio": ""
+      }
+    },
+    {
+      "id": "9eef6bd5-a06d-4f08-870a-fb425623dc91",
+      "avatar": "https://hkcota.org/wp-content/uploads/2024/06/nAcTmnXK9a9vhnkh-hkoscon_2024_avatar_white_bg.png",
+      "zh": {
+        "name": "Richard Fan",
+        "bio": ""
+      },
+      "en": {
+        "name": "Richard Fan",
         "bio": ""
       }
     },
